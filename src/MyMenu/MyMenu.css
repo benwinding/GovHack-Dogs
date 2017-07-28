@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800);
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #e6542f;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  padding: 2.5em 1em 0;
+  font-size: 1.5em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape,
+.bm-menu {
+  fill: #ccb93e;
+}
+
+.bm-menu-wrap {
+  width: 200px !important;
+  z-index: 999;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8em;
+  height: 90% !important;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+.menu-item:hover,
+.menu-item:focus {
+  color: #e6542f;
+  text-decoration: none;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.bm-item-list a span {
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bm-item-list {
+  text-align: left;
+}

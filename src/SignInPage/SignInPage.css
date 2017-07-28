@@ -1,0 +1,72 @@
+/* Content Stuff */
+
+#vidtop-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(30vh);
+    text-align: center;
+}
+
+.Signin-logo {
+    padding-bottom:10px;
+}
+
+.Signin-logo img {
+    height: 160px;
+}
+
+.Signin-desc {
+    padding-bottom:10px;
+    color: #eeeeee;
+}
+
+.vid-info button {
+    font-family: Arial, serif !important;
+    background: #e6542f !important;
+}
+
+/*
+    Background Stuff
+*/
+
+.video-background {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+
+.video-foreground {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    pointer-events: none;
+}
+
+@media (min-aspect-ratio: 21/9) {
+    .video-foreground { height: 300%; top: -70%; }
+}
+@media (max-aspect-ratio: 21/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+
+#vid-yt iframe {
+    left: 0;
+    width: 100%;
+    height: 120%;
+}
+
+#vid-yt {
+    top: -20%;
+}
+
+#vid-gif img {
+    left: 30%;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#vid-gif {
+    top: -10%;
+}
