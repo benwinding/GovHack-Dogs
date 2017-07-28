@@ -7,7 +7,7 @@ const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 class MapsView extends Component {
   render() {
     return (
-      <div style={{width:"100%", height:"50vh"}} >
+      <div style={{width:"100vw", height:"100vh"}} >
         <GoogleMap
           bootstrapURLKeys={{key: gmapsApiKey}}
           center={this.props.center}
