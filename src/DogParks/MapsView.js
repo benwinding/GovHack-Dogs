@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import GoogleMap from 'google-map-react';
+import PointsRepository from './PointsRepository';
+import MapPoint from "./MapPoint";
 
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
@@ -13,8 +15,20 @@ class MapsView extends Component {
           center={this.props.center}
           zoom={this.props.zoom}
         >
+          { MapsView.GetPoints() }
         </GoogleMap>
       </div>
+    );
+  }
+
+  static GetPoints() {
+    let points = PointsRepository.GetPointsExample();
+    return points.map((point) =>
+      <MapPoint
+        lat={point.lat}
+        lng={point.lng}
+        text={point.txt}
+      />
     );
   }
 }
