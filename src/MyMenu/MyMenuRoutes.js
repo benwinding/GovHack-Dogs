@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Switch, Route } from 'react-router-dom'
 import SignInPage from "../SignInPage/SignInPage";
 import PuppyProfile from "../ProfileCreator/PuppyProfile";
-import MapsView from "../DogParks/MapsView";
+import MapsView from "../DogParksMap/MapsView";
 import SwiperView from "../Swiper/SwiperView";
 
 class MyMenuRoutes extends Component {
