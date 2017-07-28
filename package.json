@@ -1,5 +1,5 @@
 {
-  "name": "dog-dating-app",
+  "name": "GovHack-Dogs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "react-scripts": "1.0.10",
     "request-promise-native": "^1.0.4"
   },
-  "homepage": "https://benwinding.github.io/DogDatingApp-React",
+  "homepage": "https://benwinding.github.io/GovHack-Dogs",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
