@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import {Button, Glyphicon, InputGroup} from "react-bootstrap";
 import './StatsDetailView.css';
 import Table from "react-bootstrap/es/Table";
-import {CartesianGrid, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis} from "recharts";
+import {Pie, PieChart, Tooltip} from "recharts";
 
+const uuidv1 = require('uuid/v1');
 const rp = require('request-promise-native');
 
 class StatsDetailView extends Component {
@@ -40,43 +41,81 @@ class StatsDetailView extends Component {
   }
 
   JsonTestingPrint() {
-    console.log(this.state.apiPark);
+    console.log(this.GetData());
   }
 
   GetChart() {
-    let parksFormatted = this.state.apiPark.map((stat) => {
+    let breedCounts = this.GetData();
+    let breedsFormatted = breedCounts.map((stat) => {
       return {
         name: stat["Breed"],
-        value: stat["COUNT(Breed)"]
+        value: Number(stat["COUNT(Breed)"])
       }
+    });
+    let proportionOfOther = 20;
+    let countAllDogs = breedsFormatted.reduce((sum, val) => {return sum + val.value}, 0);
+    let topDogs = breedsFormatted.filter((a) => {return a.value > countAllDogs/proportionOfOther});
+    let countTopDogs = topDogs.reduce((sum, val) => {return sum + val.value}, 0);
+    let countOtherDogs = countAllDogs - countTopDogs;
+
+    topDogs.push({
+      name: "Other",
+      value: countOtherDogs
     });
 
     return (
-      <PieChart width={800} height={400}>
-        <Pie isAnimationActive={true} data={parksFormatted} cx={200} cy={200} outerRadius={80} fill="#8884d8" label/>
-        <Pie data={parksFormatted} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d"/>
+      <PieChart width={400} height={400}>
+        <Pie dataKey="value" nameKey="name" isAnimationActive={true} data={topDogs} cx={200} cy={200} outerRadius={80} fill="#8884d8" label/>
+        <Pie dataKey="value" data={topDogs} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d"/>
         <Tooltip/>
       </PieChart>
     )
   }
 
   GetTables() {
-    return(
-      this.state.apiPark.map((stat) => {
-        return (
-          <Table key={stat.key} striped border condensed hover responsive>
-            <tbody>
-              <tr>
-                <td>Breed</td> <td>{stat["Breed"]}</td>
+    let breedCounts = this.GetData();
+    let sorted = breedCounts.sort((a,b) =>
+      Number(a["COUNT(Breed)"]) < Number(b["COUNT(Breed)"])
+    );
+    return (
+      <Table striped condensed hover responsive>
+        <thead>
+          <tr>
+            <th>Breed</th>
+            <th>Count</th>
+          </tr>
+        </thead>
+        <tbody>
+        {
+          sorted.map((stat) => {
+            return (
+              <tr key={uuidv1()} >
+                <td>{stat["Breed"]}</td>
+                <td>{stat["COUNT(Breed)"]}</td>
               </tr>
-              <tr>
-                <td>Count</td> <td>{stat["COUNT(Breed)"]}</td>
-              </tr>
-            </tbody>
-          </Table>
-        )
-      })
+            )
+          })
+        }
+        </tbody>
+      </Table>
     )
+  }
+
+  GetData() {
+    let breedCounts = this.state.apiPark;
+    breedCounts = [
+      {"Breed": "lab", "COUNT(Breed)": "32"},
+      {"Breed": "chi", "COUNT(Breed)": "21"},
+      {"Breed": "nac", "COUNT(Breed)": "124"},
+      {"Breed": "4rfqw", "COUNT(Breed)": "263"},
+      {"Breed": "sacafwd", "COUNT(Breed)": "213"},
+      {"Breed": "afwww", "COUNT(Breed)": "37"},
+      {"Breed": "nacc", "COUNT(Breed)": "14"},
+      {"Breed": "4rfqasw", "COUNT(Breed)": "63"},
+      {"Breed": "afwd", "COUNT(Breed)": "21"},
+      {"Breed": "afwwcw", "COUNT(Breed)": "36"}
+    ];
+    return breedCounts;
   }
 }
 

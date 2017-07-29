@@ -18,7 +18,8 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10",
     "recharts": "^1.0.0-alpha.2",
-    "request-promise-native": "^1.0.4"
+    "request-promise-native": "^1.0.4",
+    "uuid": "^3.1.0"
   },
   "homepage": "https://benwinding.github.io/GovHack-Dogs",
   "scripts": {
