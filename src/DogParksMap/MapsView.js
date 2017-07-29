@@ -32,7 +32,7 @@ class MapsView extends Component {
 
   componentDidMount() {
     let url = "http://ipaddressToParksAPI";
-    PointsRepository.GetPointsFromApiRen(url)
+    PointsRepository.GetPointsFromApiRens(url)
     .then((points) => {
       console.log(points);
       let pointComponents = points.data.map((point) => {
