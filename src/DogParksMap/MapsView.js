@@ -24,24 +24,26 @@ class MapsView extends Component {
           center={this.props.center}
           zoom={this.props.zoom}
         >
-          {this.state.points}
+          { this.state.points }
         </GoogleMap>
       </div>
     );
   }
 
   componentDidMount() {
-    let url = "http://ipaddressToParksAPI";
+    let url = "http://203.122.234.198:5000/parks";
     PointsRepository.GetPointsFromApiRens(url)
-    .then((points) => {
-      console.log(points);
-      let pointComponents = points.data.map((point) => {
+    .then((responseJson) => {
+      console.log(responseJson);
+      let array = responseJson.data;
+      if(array === null)
+        return;
+      let pointComponents = array.map((point, i) => {
         return <MapPoint
-          lat={-34.9285}
-          lng={138.6007}
-          // lat={point.lat}
-          // lng={point.lng}
+          key={"a" + i}
           text={point.ParkName}
+          lat={point.Lat}
+          lng={point.Long}
         />;
       });
       this.setState({points: pointComponents})})
