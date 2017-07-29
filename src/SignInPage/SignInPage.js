@@ -27,6 +27,12 @@ export default class SignInPage extends Component {
               <p>
                 <FormGroup style={{padding:"50",width:500, margin:"auto" }}>
                   <InputGroup>
+                    <InputGroup.Button>
+                      <Button style={{color:"#fff"}}><Glyphicon glyph="map-marker"></Glyphicon>   Use My Location</Button>
+                    </InputGroup.Button>
+                  </InputGroup>
+                  <br/>
+                  <InputGroup>
                     <InputGroup.Addon><Glyphicon glyph="search"></Glyphicon></InputGroup.Addon>
                     <FormControl type="text"/>
                     <InputGroup.Button>
