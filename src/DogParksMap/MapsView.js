@@ -4,6 +4,7 @@ import GoogleMap from 'google-map-react';
 import PointsRepository from './PointsRepository';
 import MapPoint from "./MapPoint";
 import {geolocated} from 'react-geolocated';
+import MapPointYourLocation from "./MapPointYourLocation";
 
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
@@ -30,17 +31,30 @@ class GetMapStuff extends Component {
       .catch((val) => console.log(val));
   }
 
-  render () {
-    this.GetPoints();
+  _onChildClick = (key, childProps) => {
+    window.location = '#/detail';
+  };
 
+  _onBoundsChange = (key, childProps) => {
+    this.GetPoints();
+  };
+
+  render () {
     return (
       <div style={{width:"100vw", height:"100vh"}} >
         <GoogleMap
           bootstrapURLKeys={{key: gmapsApiKey}}
           center={[this.props.latitude,this.props.longitude]}
           zoom={this.props.zoom}
+          onBoundsChange={this._onBoundsChange}
+          onChildClick={this._onChildClick}
         >
           { this.state.points }
+          <MapPointYourLocation
+            text={"You're Here"}
+            lat={this.props.latitude}
+            lng={this.props.longitude}
+          />
         </GoogleMap>
       </div>
     );
@@ -70,7 +84,7 @@ MapsView.propTypes = {
 
 MapsView.defaultProps = {
   center: [-34.89, 138.6007],
-  zoom: 14
+  zoom: 11
 };
 
 export default geolocated({

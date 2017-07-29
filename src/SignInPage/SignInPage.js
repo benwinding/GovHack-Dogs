@@ -3,6 +3,8 @@ import GoogleLogin from "react-google-login";
 import logo from '../boner-logo.svg';
 import './SignInPage.css';
 import MobileDetect from 'mobile-detect';
+import {FormGroup,FormControl,InputGroup,Button,Jumbotron,Glyphicon} from 'react-bootstrap';
+
 
 const responseGoogle = (response) => {
   console.log(response);
@@ -21,15 +23,30 @@ export default class SignInPage extends Component {
             <div className="Signin-logo">
               <img src={logo} alt="logo" />
             </div>
+              <h1><i></i></h1>
+              <p>
+                <FormGroup style={{padding:"50",width:500, margin:"auto", color:"#fff"}}>
+                  <InputGroup>
+                    <InputGroup.Button >
+                      <Button href="#/map" bsStyle="warning" ><Glyphicon glyph="map-marker"></Glyphicon>   Use My Location</Button>
+                    </InputGroup.Button>
+                  </InputGroup>
+                  <br/>
+                  <InputGroup>
+                    <InputGroup.Addon><Glyphicon glyph="search"></Glyphicon></InputGroup.Addon>
+                    <FormControl type="text"/>
+                    <InputGroup.Button>
+                      <Button>Go</Button>
+                    </InputGroup.Button>
+                  </InputGroup>
+                </FormGroup>
+              </p>
+
             <div className="Signin-desc">
-              <i>A match making app for dogs!</i>
+
+
             </div>
-            <GoogleLogin
-              clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
-              buttonText="Google Sign In"
-              onSuccess={responseGoogle}
-              onFailure={responseGoogle}
-            />
+
           </div>
         </div>
       </div>
