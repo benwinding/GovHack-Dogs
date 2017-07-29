@@ -39,7 +39,7 @@ class MapPoint extends Component {
         style={greatPlaceStyle}
         // onClick={this.onHover()}
       >
-        {/*<div style={{"background-color": "red"}}>*/}
+        {/*<div style={{"backgroundColor": "red"}}>*/}
           {/*X*/}
         {/*</div>*/}
         { this.props.text }

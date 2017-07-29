@@ -4,6 +4,7 @@ import SignInPage from "../SignInPage/SignInPage";
 import PuppyProfile from "../ProfileCreator/PuppyProfile";
 import MapsView from "../DogParksMap/MapsView";
 import SwiperView from "../Swiper/SwiperView";
+import DogParkDetail from "../DogParkDetail/DogParkDetail";
 
 class MyMenuRoutes extends Component {
   render() {
@@ -14,6 +15,7 @@ class MyMenuRoutes extends Component {
           <Route path='/profile' component={PuppyProfile}/>
           <Route path='/map' component={MapsView}/>
           <Route path='/swiper' component={SwiperView}/>
+          <Route path='/detail' component={DogParkDetail}/>
         </Switch>
       </main>
     );
