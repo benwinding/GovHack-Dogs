@@ -24,9 +24,8 @@ export default class SignInPage extends Component {
             <div className="Signin-logo">
               <img src={logo} alt="logo" />
             </div>
-              <h1><i></i></h1>
-              <p>
-                <FormGroup style={{padding:"50",width:500, margin:"auto", color:"#fff"}}>
+              <div>
+                <FormGroup style={{padding:"50px",width:"500px", margin:"auto", color:"#fff"}}>
                   <InputGroup>
                     <InputGroup.Button >
                       <Button href="#/map" bsStyle="warning" ><Glyphicon glyph="map-marker"></Glyphicon>   Use My Location</Button>
@@ -35,13 +34,13 @@ export default class SignInPage extends Component {
                   <br/>
                   <InputGroup>
                     <InputGroup.Addon><Glyphicon glyph="search"></Glyphicon></InputGroup.Addon>
-                    <FormControl id="search" maxlength="100" name="q" acceskey="b" autocomplete="off" placeholder="enter text" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text"/>
+                    <FormControl id="search" maxLength="100" placeholder="enter text" type="text"/>
                     <InputGroup.Button>
                       <Button>Go</Button>
                     </InputGroup.Button>
                   </InputGroup>
                 </FormGroup>
-              </p>
+              </div>
 
             <div className="Signin-desc">
 
