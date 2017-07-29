@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup} from "react-bootstrap";
+import {Button, Glyphicon, InputGroup,ControlLabel,FormGroup,FormControl,Table,Row,Col} from "react-bootstrap";
 import './DogParkDetail.css';
+// import {FormGroup,FormControl,Jumbotron,ControlLabel} from 'react-bootstrap';
 const rp = require('request-promise-native');
 
 class DogParkDetail extends Component {
@@ -23,26 +24,82 @@ class DogParkDetail extends Component {
        let park = this.state.apiPark;
        return (
           <div className="detailPage">
-            <h1>Park: </h1>
+            <h1>Park</h1>
             <div className="detailContent">
-              Park Id: {this.props.parkId}
-              <br/>
-              ParkName {  park.ParkName  } <br/>
-              facilities__Toilet(accessible) { park['facilities__Toilet(accessible)']} <br/>
-              facilities__BBQfacilities {  park.facilities__BBQfacilities  } <br/>
-              facilities__Babychangeroom {  park.facilities__Babychangeroom  } <br/>
-              facilities__Boatramp {  park.facilities__Boatramp  } <br/>
-              facilities__Cafe {  park.facilities__Cafe  } <br/>
-              facilities__Parking {  park.facilities__Parking  } <br/>
-              facilities__Picnictable {  park.facilities__Picnictable  } <br/>
-              facilities__Playground {  park.facilities__Playground  } <br/>
-              facilities__Publictransportaccess {  park.facilities__Publictransportaccess  } <br/>
-              facilities__Shelter {  park.facilities__Shelter  } <br/>
-              facilities__Shower {  park.facilities__Shower  } <br/>
-              facilities__Sportsfield {  park.facilities__Sportsfield  } <br/>
-              facilities__Toilet {  park.facilities__Toilet  } <br/>
-              lat {  park.lat  } <br/>
-              lng {  park.lng  } <br/>
+                <Row className="show-grid">
+                    <Col md={6}  >
+                        <Table striped bordered condensed hover>
+
+                            <tbody>
+                            <tr>
+                                <td>Id</td>
+                                <td>{this.props.parkId}</td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td>{park.ParkName}</td>
+                            </tr>
+                            <tr>
+                                <td>Toilet(accessible)</td>
+                                <td>{ park.facilities__Toilet}</td>
+                            </tr>
+                            <tr>
+                                <td>BBQfacilities</td>
+                                <td>{ park.facilities__BBQfacilities  }</td>
+                            </tr>
+                            <tr>
+                                <td>Babychangeroom</td>
+                                <td>{park.facilities__Babychangeroom  }</td>
+                            </tr>
+                            <tr>
+                                <td>Boatramp</td>
+                                <td>{  park.facilities__Boatramp  }</td>
+                            </tr>
+                            <tr>
+                                <td>Cafe</td>
+                                <td>{  park.facilities__Cafe  }</td>
+                            </tr>
+                            <tr>
+                                <td>Parking</td>
+                                <td>{  park.facilities__Parking  }</td>
+                            </tr>
+                            <tr>
+                                <td>Picnictable</td>
+                                <td> {park.facilities__Picnictable  }</td>
+                            </tr>
+                            <tr>
+                                <td>Playground</td>
+                                <td>{  park.facilities__Playground  }</td>
+                            </tr>
+                            <tr>
+                                <td>Publictransportaccess </td>
+                                <td>{  park.facilities__Publictransportaccess  }</td>
+                            </tr>
+                            <tr>
+                                <td>Shelter</td>
+                                <td>{park.facilities__Shelter  } </td>
+                            </tr>
+                            <tr>
+                                <td>Shower</td>
+                                <td> {park.facilities__Shower  } </td>
+                            </tr>
+                            <tr>
+                                <td>Sportsfield </td>
+                                <td>{  park.facilities__Sportsfield  } </td>
+                            </tr>
+                            <tr>
+                                <td>Toilet</td>
+                                <td> {  park.facilities__Toilet  }</td>
+                            </tr>
+                            </tbody>
+                        </Table>
+                    </Col>
+                    <Col md={6} >
+                        lat {  park.lat  } <br/>
+                        lng {  park.lng  } <br/>
+                    </Col>
+                </Row>
+
             </div>
             <InputGroup>
               <InputGroup.Button >
