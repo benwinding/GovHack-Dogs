@@ -68,7 +68,6 @@ class PuppyProfile extends Component {
               <ControlLabel>A bit about me</ControlLabel>
               <FormControl componentClass="textarea" placeholder="textarea" />
             </FormGroup>
-
             <Button type="submit">
               Submit
             </Button>
