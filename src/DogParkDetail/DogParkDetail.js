@@ -71,4 +71,3 @@ DogParkDetail.propTypes = {};
 DogParkDetail.defaultProps = {};
 
 export default DogParkDetail;
-
