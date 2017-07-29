@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-const K_WIDTH = 5;
-const K_HEIGHT = 5;
+const K_WIDTH = 10;
+const K_HEIGHT = 10;
 
 const greatPlaceStyle = {
   position: 'absolute',
@@ -11,9 +11,8 @@ const greatPlaceStyle = {
   left: -K_WIDTH / 2,
   top: -K_HEIGHT / 2,
 
-  border: '5px solid #f44336',
   borderRadius: K_HEIGHT,
-  backgroundColor: 'white',
+  backgroundColor: 'blue',
   textAlign: 'center',
   color: '#3f51b5',
   fontSize: 16,
@@ -21,7 +20,7 @@ const greatPlaceStyle = {
   padding: 4
 };
 
-class MapPoint extends Component {
+class MapPointYourLocation extends Component {
   constructor(props) {
     super(props);
   }
@@ -37,7 +36,7 @@ class MapPoint extends Component {
   }
 }
 
-MapPoint.propTypes = {};
-MapPoint.defaultProps = {};
+MapPointYourLocation.propTypes = {};
+MapPointYourLocation.defaultProps = {};
 
-export default MapPoint;
+export default MapPointYourLocation;

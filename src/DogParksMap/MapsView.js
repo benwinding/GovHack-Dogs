@@ -4,6 +4,7 @@ import GoogleMap from 'google-map-react';
 import PointsRepository from './PointsRepository';
 import MapPoint from "./MapPoint";
 import {geolocated} from 'react-geolocated';
+import MapPointYourLocation from "./MapPointYourLocation";
 
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
@@ -30,6 +31,10 @@ class GetMapStuff extends Component {
       .catch((val) => console.log(val));
   }
 
+  _onChildClick = (key, childProps) => {
+    this.props.onCenterChange([childProps.lat, childProps.lng]);
+  };
+
   render () {
     this.GetPoints();
 
@@ -39,8 +44,14 @@ class GetMapStuff extends Component {
           bootstrapURLKeys={{key: gmapsApiKey}}
           center={[this.props.latitude,this.props.longitude]}
           zoom={this.props.zoom}
+          onChildClick={this._onChildClick}
         >
           { this.state.points }
+          <MapPointYourLocation
+            text={"You're Here"}
+            lat={this.props.latitude}
+            lng={this.props.longitude}
+          />
         </GoogleMap>
       </div>
     );
