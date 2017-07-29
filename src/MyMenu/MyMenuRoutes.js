@@ -5,6 +5,7 @@ import PuppyProfile from "../ProfileCreator/PuppyProfile";
 import MapsView from "../DogParksMap/MapsView";
 import SwiperView from "../Swiper/SwiperView";
 import DogParkDetail from "../DogParkDetail/DogParkDetail";
+import ReviewDetailView from "../ReviewPark/ReviewDetailView";
 
 class MyMenuRoutes extends Component {
   render() {
@@ -16,6 +17,7 @@ class MyMenuRoutes extends Component {
           <Route path='/map' component={MapsView}/>
           <Route path='/swiper' component={SwiperView}/>
           <Route path='/detail/:parkId' render={props => <DogParkDetail {...props.match.params} />}  />
+          <Route path='/review/:parkId' render={props => <ReviewDetailView {...props.match.params} />}  />
         </Switch>
       </main>
     );
