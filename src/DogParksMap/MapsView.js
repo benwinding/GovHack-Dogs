@@ -5,6 +5,7 @@ import PointsRepository from './PointsRepository';
 import MapPoint from "./MapPoint";
 import {geolocated} from 'react-geolocated';
 import MapPointYourLocation from "./MapPointYourLocation";
+import DogParkDetail from "../DogParkDetail/DogParkDetail";
 
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
@@ -25,6 +26,7 @@ class GetMapStuff extends Component {
             text={point.ParkName}
             lat={point.lat}
             lng={point.lng}
+            parkid={point.parkid}
           />;
         });
         this.setState({points: pointComponents})})
@@ -32,7 +34,7 @@ class GetMapStuff extends Component {
   }
 
   _onChildClick = (key, childProps) => {
-    window.location = '#/detail';
+    window.location = '#/detail/'+ childProps.parkid;
   };
 
   _onBoundsChange = (key, childProps) => {
