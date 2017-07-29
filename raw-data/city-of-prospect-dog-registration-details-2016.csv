@@ -1,0 +1,829 @@
+Animal Quantity,Suburb and Postcode,Animal Name,Breed Description,Animal Colour,Animal Date of Birth,Animal Sex,Animal Neutered
+1,Sefton Park  SA  5083,Harris,Terrier Jack Russell,Black,20030124,M,Y
+1,Sefton Park  SA  5083,Tazzie,Rottweiler,Black,20040316,F,N
+1,SEFTON PARK  SA  5083,cooper,Terrier Jack Russell,Tan,20000914,M,Y
+1,COLLINSWOOD  SA  5081,Charlie,Brittany,Liver,20001222,M,Y
+1,Sefton Park  SA  5083,Paris,Border Collie,Brown,20041030,F,Y
+1,COLLINSWOOD  SA  5081,Weapon,Terrier S`Shire Bull,Blue,,M,N
+1,BROADVIEW  SA  5083,Charlie,Terrier Jack Russell,Tan,20041025,M,Y
+1,BROADVIEW  SA  5083,Ned - Neddy,Fox Terrier,Black,20020717,M,Y
+1,BROADVIEW  SA  5083,Max,Poodle,Black,20070510,M,Y
+1,BROADVIEW  SA  5083,Colby,Australian Cattle Dog,Black & Tan,20071229,M,N
+1,NAILSWORTH  SA  5083,Cuda,German Shepherd,Black & Tan,20061229,M,Y
+1,Nailsworth  SA  5083,Buddy,Poodle,Golden,19980405,M,Y
+1,NAILSWORTH  SA  5083,Pippa Panzarino,Terrier S`Shire Bull,Black,20051228,F,Y
+1,NEWTOWN  VIC  3220,Bonnie,Terrier Westhighland,White,20080511,F,Y
+1,NAILSWORTH  SA  5083,Rocky,Maltese Terrier,Tan,20090319,M,Y
+1,SEFTON PARK  SA  5083,Leo,Poodle,Apricot,20080208,M,Y
+1,Sefton Park  SA  5083,Bella,Chihuahua,Golden,20040404,F,Y
+1,Sefton Park  SA  5083,Tilly,Maltese Terrier,White,20040321,F,Y
+1,SEFTON PARK  SA  5083,Zeek,Rhodesian Ridgeback,Honey,20050401,M,N
+1,Nailsworth  SA  5083,Batter,Shihtzu,Cream,20051021,M,Y
+1,NAILSWORTH  SA  5083,Lucy,Collie,Sable,20070925,F,Y
+1,NAILSWORTH  SA  5083,Jake,Terrier S`Shire Bull,Black,20030308,M,Y
+1,Nailsworth  SA  5083,Natalie,German Shepherd,Black,20020904,F,Y
+1,NAILSWORTH  SA  5083,Emma,Poodle,Golden,20040609,F,Y
+1,NAILSWORTH  SA  5083,Sheba,Kelpie,Black,20021008,F,Y
+1,COLLINSWOOD  SA  5081,Mishka,German Shepherd,Sable,20030614,F,N
+1,COLLINSWOOD  SA  5081,Nelson,Labrador,Black,20051003,M,Y
+2,COLLINSWOOD  SA  5081,Beckham,Schnauser,Salt,20020209,M,Y
+1,NAILSWORTH  SA  5083,Merlin,Spaniel Cocker,Black,20060505,M,Y
+1,Nailsworth  SA  5083,Ebony,Bull Terrier,Black,20040915,F,Y
+2,NAILSWORTH  SA  5083,Cody,Terrier,Black & Tan,20070123,M,Y
+1,COLLINSWOOD  SA  5081,Beau,Pyrenean Mountian Dog,White,20080613,M,Y
+1,Collinswood  SA  5081,Tilly,Poodle,White,20081223,F,N
+2,COLLINSWOOD  SA  5081,Tiny,Tenterfield Terrier,Tan,20050723,F,Y
+2,COLLINSWOOD  SA  5081,Boof,Tenterfield Terrier,Tan,20050723,M,Y
+1,NAILSWORTH  SA  5083,Tippa,Terrier Jack Russell,White,20080814,M,Y
+1,NAILSWORTH  SA  5083,Jasper,Spaniel English Springer,Liver,20080106,F,Y
+1,Nailsworth  SA  5083,Emily,Terrier Fox Mini,White,20010225,F,Y
+1,COLLINSWOOD  SA  5081,Mollee,Maltese Terrier,Black,20040215,F,Y
+1,NAILSWORTH  SA  5083,Max,Kelpie,Black,20041224,M,Y
+1,Nailsworth  SA  5083,Secret,Beagle,Tri Colour,20040206,F,Y
+1,Nailsworth  SA  5083,Hayley,Schnauser,Salt,20010903,F,Y
+1,Nailsworth  SA  5083,Dougal,Irish Wolfhound,White,20061207,M,Y
+2,BROADVIEW  SA  5083,Molly,Terrier S`Shire Bull,Apricot,20081229,F,Y
+1,BROADVIEW  SA  5083,Sabby,Heeler,White,20021030,F,Y
+1,BROADVIEW  SA  5083,Nala,Tenterfield Terrier,Black & White,20030125,F,Y
+1,BROADVIEW  SA  5083,Daisy,Bull Terrier,White,20030618,F,Y
+1,NAILSWORTH  SA  5083,Hamish,Beagle,Black & Tan,20071214,M,Y
+1,COLLINSWOOD  SA  5081,Jackson,Pomeranian,White,20090113,M,Y
+2,COLLINSWOOD  SA  5081,Buffy,Terrier S`Shire Bull,Black,20010914,F,Y
+1,Sefton Park  SA  5083,Harry,Poodle,Golden,20040713,M,Y
+1,COLLINSWOOD  SA  5081,Chilli,Maltese Terrier,White,20060721,F,Y
+2,Collinswood  SA  5081,Hero,Terrier Jack Russell,White,20040310,M,Y
+2,Collinswood  SA  5081,Tuffy,Terrier Jack Russell,White,20020214,M,Y
+2,Nailsworth  SA  5083,Max,Maltese Terrier,Black & White,20080326,M,Y
+2,Nailsworth  SA  5083,Chloe,Maltese Terrier,Brown,19990321,F,Y
+1,NAILSWORTH  SA  5083,Kona,Collie,Black & Tan,20080929,M,Y
+2,NAILSWORTH  SA  5083,Max,Terrier Westhighland,White,20080112,M,Y
+2,NAILSWORTH  SA  5083,Scruffy,Terrier Westhighland,White,20070125,M,Y
+1,NAILSWORTH  SA  5083,Hugo,Weimaraner,Grey,20090205,M,Y
+1,NAILSWORTH  SA  5083,Fergus,Kelpie,Golden,,M,Y
+1,NAILSWORTH  SA  5083,Sherman,Terrier Jack Russell,Tan,20010812,M,Y
+1,BROADVIEW  SA  5083,Geordie,Maltese Terrier,White,20060711,M,Y
+1,Sefton Park  SA  5083,Max,Terrier,Black,20010722,M,Y
+2,BROADVIEW  SA  5083,Oscar,Maltese Terrier,Fawn,20010503,M,Y
+1,BROADVIEW  SA  5083,Teddy Bear,Retriever Golden,Tan,20011107,M,N
+1,BROADVIEW  SA  5083,Betty,Terrier S`Shire Bull,Brindle,20061107,F,Y
+1,NAILSWORTH  SA  5083,Molly,Labrador,Black,20020424,F,Y
+1,NAILSWORTH  SA  5083,Thorn,Border Collie,Black,20040302,M,Y
+1,BROADVIEW  SA  5083,Charlie,Labrador,Golden,20090804,M,Y
+1,BROADVIEW  SA  5083,Hercules,Border Collie,White,20010301,M,Y
+1,BROADVIEW  SA  5083,Sally,Maltese Terrier,Black & Tan,20060829,F,Y
+2,BROADVIEW  SA  5083,Gypsy,Australian Cattle Dog,Blue,20050913,F,N
+2,BROADVIEW  SA  5083,Missy,Blue Heeler,Grey,20090316,F,N
+2,Nailsworth  SA  5083,Olly,Maltese Terrier,Tan,19980408,M,Y
+2,NAILSWORTH  SA  5083,Wilbur Benji,Terrier Jack Russell,White,20090517,M,Y
+1,NAILSWORTH  SA  5083,Bobby,Maltese Terrier,Cream,20041218,M,Y
+1,Nailsworth  SA  5083,Sacha,German Shepherd,Black,20020908,F,Y
+1,NAILSWORTH  SA  5083,Zues,Terrier S`Shire Bull,Brindle,20081223,M,N
+1,BROADVIEW  SA  5083,Rufus,Retriever Golden,White,20041025,M,Y
+1,NAILSWORTH  SA  5083,Charlie,Poodle Toy,Apricot,20061204,M,Y
+1,Nailsworth  SA  5083,Indy,Chihuahua,Tan,20020320,F,N
+1,NAILSWORTH  SA  5083,Chico,Chihuahua,Tan,20080715,M,Y
+2,COLLINSWOOD  SA  5081,Bella,Schnauser,Black,20051005,F,Y
+2,BROADVIEW  SA  5083,Pippa,Retriever Golden,Golden,20041029,F,Y
+1,BROADVIEW  SA  5083,Jack,Terrier Jack Russell,White,20070523,F,N
+1,Broadview  SA  5083,Lou Lou,Maltese Terrier,White,20030408,F,Y
+1,BROADVIEW  SA  5083,Baily,Retriever Golden,Chocolate,20090322,F,Y
+1,BROADVIEW  SA  5083,Abbey,Aust Terrier Silky,Black,20020107,F,Y
+1,COLLINSWOOD  SA  5081,Ruby,Labrador,Black,20091201,F,Y
+1,PROSPECT  SA  5082,Elle,Cavalier King Charles Spaniel,Tan,20090426,F,Y
+1,Prospect  SA  5082,Gypsie,Terrier Jack Russell,Black,20041122,F,Y
+1,Prospect  SA  5082,Kimberley,Maltese Terrier,White,20031111,F,Y
+2,PROSPECT  SA  5082,Molly,Maltese Terrier,White,20080613,F,Y
+2,PROSPECT  SA  5082,Chloe,Maltese Terrier,White,20020316,F,Y
+2,COLLINSWOOD  SA  5081,Winnie,Whippet,White,20081128,F,Y
+2,COLLINSWOOD  SA  5081,Edward,Greyhound Italian,Fawn,20080415,M,Y
+1,COLLINSWOOD  SA  5081,Otis,Schnauser,Black,20021206,M,Y
+1,NAILSWORTH  SA  5083,Tkiny,Poodle Toy,Black,20070922,F,Y
+1,COLLINSWOOD  SA  5081,Barney,Spaniel,Tan,20070428,M,Y
+1,COLLINSWOOD  SA  5081,Sammy,Heeler,Tan,20080610,F,Y
+1,Collinswood  SA  5081,Rex,German Shepherd,Black,20070309,M,Y
+1,MEDINDIE GARDENS  SA  5081,Angel,Maltese Terrier,White,20030425,F,Y
+2,COLLINSWOOD  SA  5081,Dixie,Labrador,White,20000123,F,Y
+2,MEDINDIE GARDENS  SA  5081,Hegel,German Shepherd,Black & Tan,20060224,M,N
+2,MEDINDIE GARDENS  SA  5081,Che,German Shepherd,Black & Tan,20030529,F,Y
+1,MEDINDIE GARDENS  SA  5081,Jackson,Maltese Terrier,Black & White,20090824,M,N
+1,Medindie Gardens  SA  5081,Maximus,Maltese Terrier,Apricot,20070914,M,Y
+1,MEDINDIE GARDENS  SA  5081,Jack,Terrier Jack Russell,Brown,20000106,M,Y
+1,Nailsworth  SA  5083,Cash,Kelpie,Black,20021105,M,N
+1,Nailsworth  SA  5083,Spotty,Terrier Jack Russell,Tan,20030728,M,N
+2,NAILSWORTH  SA  5083,Jessie,Poodle,Cream,20030826,F,Y
+2,Nailsworth  SA  5083,Milo,Poodle Toy,Cream,19990308,M,Y
+1,NAILSWORTH  SA  5083,Lucy,Maltese Terrier,White,20030119,F,Y
+2,BROADVIEW  SA  5083,Zac,Pomeranian,Black,20060126,M,Y
+2,BROADVIEW  SA  5083,Coco,Maltese Terrier,White,20060329,M,N
+1,NAILSWORTH  SA  5083,Pebbles,Schnauser,Black & White,20070331,F,Y
+2,NAILSWORTH  SA  5083,Zephyr,Labrador,Black,20070829,M,Y
+1,NAILSWORTH  SA  5083,Millie,Spaniel Cocker,Golden,20020826,F,Y
+1,COLLINSWOOD  SA  5081,Zac,Maltese Terrier,White,20000122,M,N
+1,Broadview  SA  5083,Gaoxing,Poodle Toy,Apricot,20060311,M,Y
+2,BROADVIEW  SA  5083,Misha,Doberman,Black & Tan,20030914,F,Y
+1,Medindie Gardens  SA  5081,Jed,Papillon,Black,20020504,M,Y
+1,MEDINDIE GARDENS  SA  5081,Alfie,Beagle,Tri Colour,20060402,M,Y
+1,MEDINDIE GARDENS  SA  5081,Ginger nut,Dalmation,Brown,20050420,F,Y
+1,MEDINDIE GARDENS  SA  5081,Jenny,Maltese Terrier,Apricot,20040122,F,Y
+1,MEDINDIE GARDENS  SA  5081,Ted,Maltese Terrier,Black,20090313,M,Y
+1,Nailsworth  SA  5083,Miska,German Shepherd,Black & Tan,20080326,F,Y
+1,NAILSWORTH  SA  5083,Cruzer,Labrador,Chocolate,20070411,M,Y
+1,Broadview  SA  5083,bo,Cross Breed (Unknown),Tan,20030912,F,Y
+1,Nailsworth  SA  5083,Molly,Heeler,Black & White,20011023,F,Y
+1,NAILSWORTH  SA  5083,Jack,Border Collie,Black,20020831,M,Y
+1,Nailsworth  SA  5083,Mollie,Terrier Westhighland,Black,20090316,F,Y
+1,NAILSWORTH  SA  5083,Anna,Spaniel Cocker,Golden,20051206,F,Y
+1,NAILSWORTH  SA  5083,Jack,Poodle,Tan,20041219,M,Y
+1,BROADVIEW  SA  5083,Astra,Border Collie,Black & White,,M,Y
+1,BROADVIEW  SA  5083,Abbey,Boxer,Tan,20080313,F,Y
+1,Broadview  SA  5083,Roxie,Terrier S`Shire Bull,Brindle,20021203,F,Y
+1,BROADVIEW  SA  5083,Wilbur,Labrador,Cream,20080313,M,Y
+2,BROADVIEW  SA  5083,Jet,Labrador,Black,20050118,M,Y
+1,MEDINDIE GARDENS  SA  5081,Hugo,German Shorthaired Pointer,Liver,20041012,M,Y
+1,MEDINDIE GARDENS  SA  5081,Boof,Poodle,Apricot,20041215,M,Y
+2,Nailsworth  SA  5083,Benson,Poodle,Black,20041025,M,Y
+2,Nailsworth  SA  5083,Barkshaw,Beagle,Tri Colour,20041025,M,Y
+1,NAILSWORTH  SA  5083,Snookums,Pomeranian,Red,20020917,F,Y
+1,Nailsworth  SA  5083,Lola,Poodle,Black,20081031,F,Y
+1,NAILSWORTH  SA  5083,Lucy,Terrier Jack Russell,Black,,F,N
+2,NAILSWORTH  SA  5083,Banjo,Pyrenean Mountian Dog,White,20100317,F,Y
+1,Collinswood  SA  5081,Lucy,Labrador,Black,20050521,F,Y
+1,COLLINSWOOD  SA  5081,Sammy,Greyhound,Black,20050506,M,Y
+1,Collinswood  SA  5081,Oscar,Poodle Toy,White,20031227,M,Y
+1,NAILSWORTH  SA  5083,Bear,Border Collie,Brown,20090417,M,N
+1,Nailsworth  SA  5083,Kelsey,Border Collie,Black,20010911,F,Y
+1,Nailsworth  SA  5083,Holly,Spaniel Cocker,Honey,20050807,F,Y
+1,NAILSWORTH  SA  5083,Kim,Pomeranian,Fawn,20031229,F,Y
+1,Prospect  SA  5082,Dharma,Spaniel Cocker,Black & White,19980701,F,Y
+1,Collinswood  SA  5081,Max,Poodle,Cream,20030601,M,Y
+1,COLLINSWOOD  SA  5081,Max,Cavalier King Charles Spaniel,Tan,20051230,M,Y
+1,NAILSWORTH  SA  5083,Sparkles,Maltese Terrier,Black,20090617,F,Y
+2,NAILSWORTH  SA  5083,Munchkin,Shihtzu,Black & White,20051002,M,Y
+1,NAILSWORTH  SA  5083,Cadbury,Poodle,Blue,20020217,F,Y
+2,NAILSWORTH  SA  5083,Sammy,Poodle,Tan,20031108,F,Y
+1,Nailsworth  SA  5083,Isabelle,Poodle Toy,Apricot,20080522,F,Y
+1,NAILSWORTH  SA  5083,Oats,Heeler,Black,20050507,M,Y
+2,BROADVIEW  SA  5083,Dakota,Bernese Mountain Dog,Tri Colour,20081227,F,N
+2,BROADVIEW  SA  5083,Coban,Poodle,Apricot,20070612,M,Y
+1,Prospect  SA  5082,Jennii,Tenterfield Terrier,Black,20040214,F,Y
+1,PROSPECT  SA  5082,Bella,Labrador,Chocolate,20040422,F,Y
+5,PROSPECT SA 5082,Mac,Weimaraner,Grey,20080315,M,Y
+1,PROSPECT  SA  5082,Hamish,Labrador,Black,20080717,M,Y
+1,FITZROY  SA  5082,Toby,Border Collie,Brown,20050723,M,Y
+1,Fitzroy  SA  5082,Syd,Cavalier King Charles Spaniel,Blenheim,20051028,M,Y
+2,FITZROY  SA  5082,Charley,Poodle,Black & Tan,20070125,F,Y
+2,FITZROY  SA  5082,Indi,Poodle,Apricot,20090703,F,Y
+1,Fitzroy  SA  5082,Christy,Poodle,Black,20081011,M,Y
+1,Fitzroy  SA  5082,Brandy,Terrier S`Shire Bull,Brindle,20020409,F,Y
+1,Prospect  SA  5082,Girlie,Pug,Brown,19990816,F,Y
+1,Thorngate  SA  5082,Moby,Shihtzu,White,20010827,M,Y
+2,THORNGATE  SA  5082,Comet,Labrador,Chocolate,20080411,M,Y
+2,THORNGATE  SA  5082,Kadlinga Jack Frost (Boof),Labrador,Black,20080314,M,N
+2,PROSPECT  SA  5082,Tully,Beagle,Tri Colour,20090416,F,Y
+1,PROSPECT  SA  5082,Harry,Maltese Terrier,Brown,20031201,M,Y
+1,PROSPECT  SA  5082,Billy,Maltese Terrier,White,20060829,M,Y
+1,PROSPECT  SA  5082,Ollie,Maltese Terrier,Black,20090418,M,Y
+1,PROSPECT  SA  5082,Lucy,Labrador,Golden,20071211,F,Y
+1,Prospect SA   508,Kasey,Cavalier King Charles Spaniel,Apricot,20060529,F,Y
+1,Prospect  SA  5082,Scooby,Lhasa Apso,Cream,20040829,M,Y
+1,Prospect  SA  5082,McMuffin Mills,Terrier Westhighland,White,20031217,M,N
+1,PROSPECT  SA  5082,Jessie Powell,Poodle,Golden,20090319,F,Y
+3,Prospect  SA  5082,Stella,Poodle,White,20090617,F,Y
+3,Prospect  SA  5082,Sara,Poodle,White,20020707,F,Y
+2,PROSPECT  SA  5082,Meisha,Beagle,Tri Colour,20030920,F,Y
+1,PROSPECT  SA  5082,Minnie,Terrier Jack Russell,White,20040323,F,Y
+1,PROSPECT  SA  5082,Roxy,Maltese Terrier,White,20011114,F,N
+1,FITZROY  SA  5082,Charlie,Retriever Golden,Golden,20080419,M,Y
+1,Fitzroy  SA  5082,Storm,Schnauser,Salt,20040503,M,Y
+2,PROSPECT  SA  5082,Bella Bear Kurlinkus,Poodle,Sable,20090402,F,Y
+2,PROSPECT  SA  5082,Lu-Lu Cheeky Chops Kurlinkus,Poodle,Sable,20090402,F,Y
+1,PROSPECT  SA  5082,Dot,Border Collie,Black,20041104,F,Y
+2,PROSPECT  SA  5082,Regina,Basenji,Tan,20050327,F,Y
+2,PROSPECT  SA  5082,Bella,Maltese Terrier,Black & White,20051023,F,Y
+1,PROSPECT  SA  5082,Lili,Terrier Westhighland,White,20010401,F,Y
+2,PROSPECT  SA  5082,Rose,Maltese Terrier,White,20020918,F,Y
+1,PROSPECT  SA  5082,Missy,Spaniel Cocker,Golden,20040829,M,Y
+1,OVINGHAM  SA  5082,Steve Aigner-Gillings,Terrier Jack Russell,Tri Colour,20080415,M,Y
+1,PROSPECT  SA  5082,Roxy,Maltese Terrier,White,20081101,M,Y
+1,PROSPECT  SA  5082,Ruby,Spaniel Cocker,Black,20030711,F,Y
+1,PROSPECT  SA  5082,Chloe,Maltese Terrier,White,20030415,F,Y
+1,Prospect  SA  5082,Ruby,Maltese Terrier,Cream,20020220,F,Y
+1,Prospect  SA  5082,Mika,Japanese Spitz,White,20010125,F,Y
+1,Prospect  SA  5082,Rex,Fox Terrier,Black & White,20071111,M,N
+1,PROSPECT  SA  5082,Archie,Poodle,Tan,20090407,M,Y
+1,Prospect  SA  5082,Olly,Pomeranian,Tan,20081019,M,Y
+1,Prospect  SA  5082,Poppy,Terrier,Red,20050813,F,Y
+1,PROSPECT  SA  5082,Shelby,Terrier S`Shire Bull,Tan,20071213,M,Y
+1,OVINGHAM  SA  5082,Turvy,Collie,Black,20050625,M,Y
+1,Prospect  SA  5082,Polly,Labrador,Black,20030506,F,Y
+1,PROSPECT  SA  5082,Turbo,Labrador,Chocolate,20070612,M,Y
+1,Prospect  SA  5082,Hank,Terrier,Tan,20000909,M,Y
+2,Prospect  SA  5082,Stanley,Heeler,Blue,20030312,M,N
+1,Prospect  SA  5082,Zak,Terrier Jack Russell,Tan,20070512,M,Y
+2,PROSPECT  SA  5082,Missy,Border Collie,Black & White,20070209,F,Y
+2,PROSPECT  SA  5082,Molly,Border Collie,Black & White,20080209,F,Y
+1,PROSPECT  SA  5082,Coco,Maltese Terrier,Fawn,20060912,M,N
+1,PROSPECT  SA  5082,Taddy,Terrier,Tan,20060401,M,Y
+1,PROSPECT  SA  5082,Ripley,Weimaraner,Grey,20030621,M,Y
+1,Prospect  SA  5082,CoCo,Labrador,Chocolate,20050110,F,Y
+1,PROSPECT  SA  5082,Riley,Maltese Terrier,White,20050815,M,Y
+1,PROSPECT  SA  5082,Gracie,Poodle,Black & Tan,20061031,F,Y
+1,PROSPECT  SA  5082,Merlin,Scotch Terrier,Black,20020831,M,Y
+1,PROSPECT  SA  5082,Boss,Maltese Terrier,White,20051001,M,Y
+1,PROSPECT  SA  5082,Kato,German Shepherd,Black & Tan,20071003,M,N
+1,PROSPECT  SA  5082,Ruby,Kelpie,Black,20061206,F,Y
+2,THORNGATE  SA  5082,Saffron,Labrador,Golden,20060411,F,Y
+2,THORNGATE  SA  5082,Elly,Poodle Toy,Apricot,20050225,F,Y
+1,THORNGATE  SA  5082,Delta,Chihuahua,Brown,20061229,F,Y
+1,Thorngate  SA  5082,Jen,Schnauser,Black & White,20080615,F,Y
+1,THORNGATE  SA  5082,Mia,Maltese Terrier,White,20080315,F,Y
+1,Thorngate  SA  5082,Fifi,Poodle Toy,Black,20020110,F,Y
+1,THORNGATE  SA  5082,Cassius,Labrador,Chocolate,20090916,M,Y
+1,Thorngate  SA  5082,Oscar,Boxer,Black,20030603,M,Y
+1,PROSPECT  SA  5082,Misty,Hungarian Vizsla,Brown,20010128,F,Y
+1,PROSPECT  SA  5082,Robbie,Cross Breed,Black & White,20050402,M,N
+1,Prospect  SA  5082,Zoe,Cavalier King Charles Spaniel,Golden,20070612,F,Y
+2,PROSPECT  SA  5082,Bella,Terrier,White,20010211,F,N
+1,PROSPECT  SA  5082,Fergus,Terrier,Tan,20070903,M,Y
+1,PROSPECT  SA  5082,Minnie,Chihuahua,Beige,20041107,F,N
+1,PROSPECT  SA  5082,Kita,Rhodesian Ridgeback,Red,20060418,F,Y
+1,Prospect  SA  5082,Benny,Maltese Terrier,White,20030516,M,Y
+1,Prospect SA 5082,Sally,Kelpie,Black & Tan,20090305,F,Y
+1,PROSPECT  SA  5082,Gus,Poodle,Golden,20060528,M,Y
+1,PROSPECT  SA  5082,Larry,Dachshund,Tan,20080108,M,Y
+1,PROSPECT  SA  5082,Gabby,Retriever Golden,Golden,20050221,F,Y
+2,Prospect  SA  5082,Clive,Schnauser,Salt,20040504,M,Y
+2,Prospect  SA  5082,Ned,Schnauser,Salt,20040504,M,Y
+1,Prospect  SA  5082,Mimi,Terrier Westhighland,White,20041029,F,Y
+1,PROSPECT  SA  5082,William,Poodle Toy,Honey,20060913,M,Y
+2,Prospect  SA  5082,Toby,Tenterfield Terrier,Tri Colour,20011121,M,Y
+1,Prospect  SA  5082,Ziggy,Bull Mastiff,Brindle,20011211,F,Y
+1,AUBURN  SA  5451,Pumpkin,Maltese Terrier,White,20050606,F,Y
+1,Prospect  SA  5082,Baxter,Labrador,Cream,20040916,M,Y
+1,Ovingham  SA  5082,Toby,Terrier,White,20000403,M,N
+1,Ovingham  SA  5082,Bailey,Shihtzu,Tan,20021106,F,Y
+1,OVINGHAM  SA  5082,Susie,Maltese Terrier,Tan,20071113,F,Y
+1,FITZROY  SA  5082,Rastus,Collie,Tri Colour,20010920,M,Y
+1,PROSPECT  SA  5082,Jaspa,Retriever Golden,Golden,19990215,F,Y
+1,Prospect  SA  5082,Spike,Terrier Jack Russell,Black,19991217,M,Y
+1,PROSPECT  SA  5082,Sparky,Kelpie,Black,20020906,M,Y
+1,Prospect  SA  5082,Talli,Labrador,Black,20050825,F,Y
+1,PROSPECT  SA  5082,Astro,Beagle,Tri Colour,20030814,M,Y
+1,PROSPECT  SA  5082,Sunny,Maltese Terrier,White,20000306,M,Y
+1,Prospect  SA  5082,Angel,Terrier,White,20020714,M,N
+1,PROSPECT  SA  5082,Rusty,Terrier Jack Russell,White,20020702,M,Y
+1,PROSPECT  SA  5082,Pumpkin,Terrier Jack Russell,White,,F,Y
+1,PROSPECT  SA  5082,gavin,Corgi,Black,20050615,M,Y
+1,Prospect  SA  5082,Murphy,Dachshund Mini,Red,20050804,M,Y
+1,PROSPECT  SA  5082,Cooper,Kelpie,Tan,20081117,M,Y
+1,PROSPECT  SA  5082,Max,Cairn Terrier,Wheaten,20050415,M,Y
+1,Prospect  SA  5082,Daisy,Terrier Jack Russell,Tan,20000720,F,N
+1,Prospect  SA  5082,Simba,Terrier S`Shire Bull,Brown,20040223,M,Y
+1,PROSPECT  SA  5082,Barry,Labrador,Chocolate,20090809,M,Y
+1,Prospect  SA  5082,Leo,Aust Terrier Silky,Black,,M,Y
+1,PROSPECT  SA  5082,Sam,Rottweiler,Black,20080731,F,Y
+2,Prospect  SA  5082,Snoopy,Maltese Terrier,White,20010430,M,N
+1,PROSPECT  SA  5082,Puppet,Maltese Terrier,White,19980509,M,N
+2,PROSPECT  SA  5082,Holly,Maltese Terrier,White,20050130,F,Y
+1,Prospect  SA  5082,Ralph,Terrier,Black,20010630,M,Y
+1,Prospect  SA  5082,Litsa,Maltese Terrier,Black & White,20030501,F,Y
+1,PROSPECT  SA  5082,Cooper,Labrador,Black,20081122,M,Y
+1,PROSPECT  SA  5082,Codie,Tenterfield Terrier,Tri Colour,20070815,M,Y
+2,PROSPECT  SA  5082,Sally,Australian Bulldog,Tan,20071118,F,N
+1,PROSPECT  SA  5082,Chelsea,German Shorthaired Pointer,White,20060402,F,N
+2,PROSPECT  SA  5082,Buddy,Maltese Terrier,Black & White,,M,Y
+2,PROSPECT  SA  5082,Finney,Retriever Golden,Golden,20040917,F,Y
+1,PROSPECT  SA  5082,Sally,Cavalier King Charles Spaniel,White,20060522,F,Y
+1,PROSPECT  SA  5082,Burnzy,Maltese Terrier,White,20070519,M,N
+1,PROSPECT  SA  5082,Moet,Maltese Terrier,White,20071114,M,N
+1,PROSPECT  SA  5082,Taffy,Dachshund,Black,,M,Y
+1,PROSPECT  SA  5082,Jasmine,Dachshund Mini,Black,19990406,F,Y
+2,PROSPECT  SA  5082,Jacob,Border Collie,Black & White,20020511,M,Y
+2,PROSPECT  SA  5082,Buddy,Terrier S`Shire Bull,Black,20011106,M,Y
+1,PROSPECT  SA  5082,Occy,Border Collie,Black,20071028,M,N
+1,PROSPECT  SA  5082,Lenny,Terrier,Tan,20050119,M,Y
+1,PROSPECT  SA  5082,Polly,Chihuahua,Golden,20050122,F,Y
+2,PROSPECT  SA  5082,Steph,Labrador,Golden,20001102,F,Y
+1,PROSPECT  SA  5082,Sheba,German Shepherd,Black & Tan,20090515,F,Y
+1,PROSPECT  SA  5082,Wanda,German Shepherd,Black & Tan,20080703,F,Y
+1,PROSPECT  SA  5082,Mia,Maltese Terrier,White,20070123,F,Y
+1,PROSPECT  SA  5082,Effie,Cavalier King Charles Spaniel,White,20020323,F,Y
+1,Prospect  SA  5082,Cody,Bull Terrier,White,20071218,F,Y
+1,PROSPECT  SA  5082,Chad As In Cornes,Beagle,Tri Colour,20091026,M,N
+1,PROSPECT  SA  5082,Will From Willunga,Border Collie,Black & White,20091026,M,N
+1,PROSPECT  SA  5082,Chilli,Chihuahua,Black,20050503,M,Y
+1,Prospect  SA  5082,Murphy,Terrier,Black,19990803,F,Y
+1,Prospect  SA  5082,Benji,Terrier Westhighland,White,20081122,M,Y
+1,PROSPECT  SA  5082,Chase,Maltese Terrier,White,,M,Y
+1,PROSPECT  SA  5082,Pasha,Rhodesian Ridgeback,Fawn,20071214,F,Y
+1,Prospect  SA  5082,Rosie,Border Collie,Black,20021023,F,Y
+2,PROSPECT  SA  5082,Jessica,Maltese Terrier,White,20080727,F,Y
+1,Prospect  SA  5082,Pip,Labrador,Apricot,20020728,M,N
+1,PROSPECT  SA  5082,Youie,Greyhound,Black,20060215,F,N
+1,Prospect  SA  5082,Mack,Terrier Jack Russell,Tan,20051123,M,Y
+1,PROSPECT  SA  5082,Paris,Maltese Terrier,White,19970219,F,Y
+1,Prospect  SA  5082,Ozzie,Beagle,Tri Colour,20050703,M,Y
+1,Prospect  SA  5082,Cooper,Maltese Terrier,White,20080112,M,Y
+1,PROSPECT  SA  5082,Cooper,Retriever Golden,Golden,20081229,M,Y
+1,FITZROY  SA  5082,Baci,Labrador,Brown,20091018,F,Y
+1,Fitzroy  SA  5082,Chloe,Shihtzu,Blenheim,20040509,F,Y
+1,Fitzroy  SA  5082,Billy,Kelpie,Black,20020829,M,Y
+1,Prospect  SA  5082,Tiggi,Terrier S`Shire Bull,Red,20080803,F,Y
+1,PROSPECT  SA  5082,Daisy,Poodle,Apricot,20081029,F,Y
+1,Prospect  SA  5082,Basil,Retriever Golden,Golden,20031117,M,Y
+1,PROSPECT  SA  5082,Ebony,Kelpie,Black,20050610,F,Y
+1,Prospect  SA  5082,Spencer,Labrador,Black,20070612,M,Y
+2,PROSPECT  SA  5082,Pixie,Tenterfield Terrier,Black,20050517,F,Y
+2,PROSPECT  SA  5082,Trixie,Tenterfield Terrier,Tan,20050517,F,N
+2,PROSPECT  SA  5082,Demon,Akita,Tan,20050905,M,Y
+1,Prospect  SA  5082,Charlie,Spaniel,Caramel,20090816,M,N
+1,PROSPECT SA 5082,Lisa,Weimaraner,Grey,19980701,F,Y
+2,PROSPECT  SA  5082,Jessie,Lhasa Apso,Golden,20020718,M,Y
+1,PROSPECT  SA  5082,Jack,Terrier Jack Russell,White,20031114,M,Y
+2,PROSPECT  SA  5082,Marty,Terrier Jack Russell,White,20020818,M,Y
+1,PROSPECT  SA  5082,Charlie,Poodle Toy,Black,20050614,M,Y
+1,PROSPECT  SA  5082,Harry,Schnauser,Black,20040229,M,Y
+2,PROSPECT  SA  5082,Charlie,Maltese Terrier,Tan,20030208,F,N
+2,Prospect  SA  5082,Wally,Retriever Golden,Golden,20090615,M,Y
+2,Prospect  SA  5082,Hettie,Retriever Golden,Cream,20080716,F,Y
+1,Prospect  SA  5082,Tes,Heeler,Black,20070411,F,N
+1,Prospect  SA  5082,Polly,Cavalier King Charles Spaniel,Tri Colour,20021126,F,N
+1,Prospect  SA  5082,Sophie,Dalmation,Black & White,20021030,F,Y
+1,PROSPECT  SA  5082,Axl,Beagle,Tri Colour,,M,Y
+1,Prospect  SA  5082,Jackson,Poodle,White,20011112,M,Y
+1,PROSPECT  SA  5082,Max,Maltese Terrier,Tri Colour,20080218,M,N
+1,PROSPECT  SA  5082,Quincy,Poodle,Golden,20081122,M,N
+1,PROSPECT  SA  5082,Chloe,Terrier,Tri Colour,20030109,F,Y
+1,PROSPECT  SA  5082,Taggard,Labrador,Black,20050518,M,Y
+1,PROSPECT  SA  5082,Chilli,Spaniel Cocker,Golden,20070512,F,Y
+1,PROSPECT  SA  5082,BJ,Border Collie,Brown,20090615,M,Y
+2,PROSPECT  SA  5082,Cha Chi,Lhasa Apso,White,20031224,M,Y
+1,PROSPECT  SA  5082,Buttons,Maltese Terrier,Tri Colour,20021006,F,Y
+2,Prospect  SA  5082,Shayah,Pug,Fawn,20050904,F,Y
+2,Prospect  SA  5082,Yoda,Pug,Fawn,20050601,M,N
+1,Prospect  SA  5082,Cody,Shihtzu,White,19990725,M,Y
+2,FITZROY  SA  5082,Dougal,Maltese Terrier,White,19991108,M,Y
+2,FITZROY  SA  5082,Ted,Pomeranian,Brindle,20020610,M,Y
+1,Fitzroy  SA  5082,Rembrandt,Spaniel Cocker,Black,20070512,M,Y
+2,PROSPECT  SA  5082,Abbey,Chihuahua,Black,20030831,F,Y
+1,PROSPECT  SA  5082,Electra,Mastiff,Tan,20080503,F,N
+1,PROSPECT  SA  5082,Charlie,Cross Breed (Unknown),Cream,20051211,M,N
+1,Prospect  SA  5082,Charlie,Cavalier King Charles Spaniel,Blenheim,20060915,M,Y
+2,PROSPECT  SA  5082,Bart,Bichon Frise,Black,20080806,M,N
+2,PROSPECT  SA  5082,Molly,Labrador,Golden,20060126,F,N
+1,PROSPECT  SA  5082,Charlie,Fox Terrier,Tan,20040215,M,N
+1,Prospect  SA  5082,Maggie,Papillon,Black,20000814,F,Y
+1,PROSPECT  SA  5082,Oscar,Spaniel Cocker,Unknown,20061012,M,Y
+1,Prospect SA 5082,Kayla,Terrier S`Shire Bull,Red,20030214,F,Y
+2,Prospect  SA  5082,Jack,Border Collie,Black,20050916,M,Y
+1,PROSPECT  SA  5082,Funny,Poodle Toy,White,20050829,M,Y
+1,PROSPECT  SA  5082,Rosie,Airedale,Black & Tan,20060402,F,Y
+2,FITZROY  SA  5082,Rosie,Retriever Golden,Cream,20080803,F,Y
+1,PROSPECT  SA  5082,Schuey,Beagle,Tri Colour,20071111,M,Y
+1,PROSPECT  SA  5082,Mauser,Schnauser,Salt,,M,Y
+3,PROSPECT  SA  5082,Ruby,Cavalier King Charles Spaniel,Ruby,20080921,F,Y
+1,PROSPECT  SA  5082,Louis,Spaniel,Golden,20050726,M,Y
+1,PROSPECT  SA  5082,Misty,Maltese Terrier,White,20090308,F,N
+1,PROSPECT  SA  5082,Truffles,Aust Terrier Silky,Brown,20030813,F,N
+1,PROSPECT  SA  5082,Astro,Maltese Terrier,White,20041025,M,N
+1,PROSPECT  SA  5082,Cleo,Lhasa Apso,White,20020917,F,Y
+1,PROSPECT  SA  5082,Bella Troncone,Terrier,Brown,20030819,F,Y
+1,PROSPECT  SA  5082,Jacque,Maltese Terrier,Brown,20080510,M,Y
+1,PROSPECT  SA  5082,Gemma,Labrador,Golden,20011023,F,Y
+2,PROSPECT  SA  5082,Bailey,Terrier Jack Russell,White,20080208,M,Y
+2,PROSPECT  SA  5082,Max,Terrier Jack Russell,Brown,20040122,M,Y
+2,PROSPECT  SA  5082,Hamish,Spaniel Cocker,Black & White,20061218,M,Y
+2,PROSPECT  SA  5082,Mcbeth,Poodle,Golden,20061017,M,Y
+1,PROSPECT  SA  5082,Harley,Heeler,Blue,20070119,M,Y
+1,PROSPECT  SA  5082,Geordie,Heeler,Blue,20050317,M,Y
+1,PROSPECT  SA  5082,Oreo,Border Collie,Black & White,20070814,M,Y
+1,PROSPECT  SA  5082,Daisy,Maltese Terrier,White,20050402,F,Y
+2,PROSPECT  SA  5082,Matilda,Great Dane,Black & White,20080818,F,Y
+2,PROSPECT  SA  5082,Raffi,Labrador,Brown,20051024,F,Y
+1,Prospect  SA  5082,Lula,Fox Terrier,White,20090217,F,Y
+1,PROSPECT  SA  5082,Cooper,Canaan Dog,Golden,20060423,M,Y
+1,Prospect  SA  5082,Sally,Whippet,Red,20081019,F,Y
+2,PROSPECT  SA  5082,Rosie,Retriever Golden,Golden,,F,Y
+1,PROSPECT  SA  5082,Rocky,Kelpie,Black & Tan,20070917,M,N
+1,PROSPECT  SA  5082,Peanut,Maltese Terrier,White,20080214,M,Y
+1,Prospect  SA  5082,Claude,Terrier Jack Russell,Tan,19990423,M,N
+1,PROSPECT  SA  5082,Oscar,Poodle Toy,Black,20021212,M,Y
+1,PROSPECT  SA  5082,Izzy,Collie,Black,20081117,F,Y
+1,Prospect  SA  5082,Ralph,Kelpie,Fawn,20080701,M,Y
+2,Prospect  SA  5082,Cooper,Alaskan Malamute,White,20091018,M,Y
+1,PROSPECT  SA  5082,Betty,Terrier S`Shire Bull,Brindle,20031123,F,Y
+1,Prospect  SA  5082,Isabella,Poodle Toy,Apricot,20050708,F,Y
+2,PROSPECT  SA  5082,Tasha,Pomeranian,Red,20050410,F,Y
+2,PROSPECT  SA  5082,Nicky,German Shepherd,Tan,20040621,F,Y
+1,PROSPECT  SA  5082,Mozby,Labrador,Brown,20090629,M,Y
+1,PROSPECT  SA  5082,Foxy,Terrier,White,20060604,F,N
+1,Prospect  SA  5082,Zarah,Maltese Terrier,White,20000703,F,Y
+1,PROSPECT  SA  5082,Kaida,Japanese Spitz,White,20091117,F,Y
+1,Prospect  SA  5082,Tara,Dalmation,Black,20030127,F,Y
+2,Prospect  SA  5082,Buddy,Maltese Terrier,White,20020630,M,Y
+1,Prospect  SA  5082,Steffie,Miniature Schnauser,Black & White,20090425,F,Y
+1,Prospect SA 5082,Lucy,Terrier Yorkshire,Black & Tan,19981107,F,Y
+1,PROSPECT  SA  5082,Ebony,Maltese Terrier,Black,,M,N
+1,PROSPECT  SA  5082,Douggie,Maltese Terrier,White,20091115,M,Y
+2,PROSPECT  SA  5082,Kasey,Elkhound,Black,20040604,M,Y
+2,PROSPECT  SA  5082,Benji,Maltese Terrier,Tri Colour,20051205,M,Y
+2,Prospect  SA  5082,Mia,Maltese Terrier,White,20020526,F,N
+2,Prospect  SA  5082,Harvey,Maltese Terrier,White,20030526,M,Y
+2,PROSPECT  SA  5082,Stella,Kelpie,Brown,20050119,F,Y
+2,PROSPECT  SA  5082,Denis,Kelpie,Red,20060314,M,Y
+1,PROSPECT  SA  5082,Chiko,Bull Terrier,White,20021203,M,Y
+1,PROSPECT  SA  5082,Zach,German Shepherd,Black,20070214,M,N
+1,PROSPECT  SA  5082,Montis,Maltese Terrier,Brown,20040731,M,N
+1,PROSPECT  SA  5082,Jakkob,Heeler,Blue,20010301,M,Y
+1,Prospect  SA  5082,Zoe,Cavalier King Charles Spaniel,Tan,20081201,F,Y
+1,Prospect  SA  5082,Emma,Weimaraner,Silver,20021213,F,Y
+1,Fitzroy  SA  5082,Leo,Poodle,Black,20081117,M,Y
+1,FITZROY  SA  5082,Cooper Dyson,Cavalier King Charles Spaniel,Black,20071228,M,Y
+1,FITZROY  SA  5082,Jed,Schnauser,Grey,20060211,M,N
+1,FITZROY  SA  5082,Maise,Dalmation,Black,20031113,F,Y
+1,FITZROY  SA  5082,Jaya,Labrador,White,20001209,F,Y
+1,Prospect  SA  5082,Kaos,Tenterfield Terrier,White,,M,Y
+1,Fitzroy  SA  5082,Bella,Labrador,Cream,20040603,F,N
+1,Fitzroy  SA  5082,Jeremy,Poodle,Apricot,,M,Y
+1,FITZROY  SA  5082,Tiffany,Poodle,Black,20060125,F,Y
+1,PROSPECT  SA  5082,Rosie,Poodle,Brown,20090319,F,Y
+1,PROSPECT  SA  5082,Frankie,Dachshund,Red,20080625,M,Y
+1,PROSPECT  SA  5082,Jasper,Labrador,Black,20070615,M,Y
+1,PROSPECT  SA  5082,Millie,Kelpie,White,20030714,F,Y
+1,Prospect  SA  5082,Rocky,Labrador,Yellow,20091017,M,N
+1,Prospect  SA  5082,Sassy,Rottweiler,Black & Tan,20071219,F,Y
+1,Prospect  SA  5082,Slippy,Border Collie,Black & White,20060610,M,Y
+1,Prospect  SA  5082,Whiskers,Border Collie,Tan,20070222,F,Y
+1,PROSPECT  SA  5082,Roxy,Heeler,Red,20090517,F,Y
+1,PROSPECT  SA  5082,Bruno,Boxer,Fawn,20080127,M,N
+1,PROSPECT  SA  5082,Trooper,Labrador,Black,20070814,M,Y
+1,PROSPECT  SA  5082,Freckles,Terrier Jack Russell,White,20061112,M,N
+2,PROSPECT  SA  5082,Lulu,Terrier Fox Mini,White,20080421,F,N
+1,Prospect  SA  5082,Charlie,Labrador,Golden,20020316,M,Y
+1,PROSEPCT SA  5082,Scruffy,Pomeranian,White,20070808,M,Y
+1,Prospect  SA  5082,Strider,Whippet,Brindle,20070513,M,Y
+1,PROSPECT  SA  5082,Hamish,Poodle,Caramel,20081104,M,Y
+1,PROSPECT  SA  5082,Buddy,Maltese Terrier,White,20081115,M,Y
+1,PROSPECT  SA  5082,George,Terrier S`Shire Bull,Red,20040711,M,Y
+1,PROSPECT  SA  5082,Penny,Border Collie,Black & White,20060916,F,Y
+2,PROSPECT  SA  5082,Basil,Chihuahua,Tan,20041115,M,N
+2,Prospect  SA  5082,Shelby,Cavalier King Charles Spaniel,Ruby,20091216,F,Y
+2,Prospect  SA  5082,Doobie,Cavalier King Charles Spaniel,Blenheim,20091216,M,Y
+1,PROSPECT  SA  5082,Zorba,Pomeranian,Red,20020226,M,Y
+1,PROSPECT  SA  5082,Ruby,Staffordshire Terrier,Tan,20011014,F,Y
+2,PROSPECT  SA  5082,Bruno,Poodle Toy,Chocolate,20041125,M,Y
+2,PROSPECT  SA  5082,Lola,Poodle Toy,Red,20050511,F,Y
+1,PROSPECT  SA  5082,Kaos,Maltese Terrier,Black,20060303,M,N
+1,PROSPECT  SA  5082,Junior,Chihuahua,Grey,19990209,M,Y
+1,PROSPECT  SA  5082,Karma,Kelpie,Black,20090918,F,Y
+2,PROSPECT  SA  5082,Bruno,Chow Chow,Red,20060720,M,N
+2,PROSPECT  SA  5082,Misty,Keeshond,Silver,20051215,F,Y
+2,Prospect  SA  5082,Barny,Cavalier King Charles Spaniel,Brown,20081103,M,Y
+2,Prospect  SA  5082,Benji,Cavalier King Charles Spaniel,Brown,20081103,M,Y
+1,PROSPECT  SA  5082,Sam,Border Collie,Black,20001017,F,Y
+2,PROSPECT  SA  5082,Tuppence,Maltese Terrier,White,20061017,F,Y
+2,PROSPECT  SA  5082,Nelson,Shihtzu,Tri Colour,20040214,M,Y
+1,PROSPECT  SA  5082,Max,Maltese Terrier,Brown,20031123,M,N
+1,PROSPECT  SA  5082,Cruz,German Shepherd,Black,20071024,M,Y
+1,Prospect  SA  5082,Ramses,Rhodesian Ridgeback,Brown,20040906,M,Y
+2,PROSPECT  SA  5082,Willow,Finnish Spitz,Red,20090911,F,N
+2,PROSPECT  SA  5082,Indigo,Schipperke,Black,20090615,F,N
+1,Prospect  SA  5082,Waffles,Pomeranian,Black & White,20080701,F,Y
+2,PROSPECT  SA  5082,Susy,Tenterfield Terrier,White,20080905,F,Y
+2,PROSPECT  SA  5082,Rosie Lee,Tibetan Spaniel,Brown,20061005,F,Y
+1,Prospect  SA  5082,Butcher,Terrier S`Shire Bull,White,20041101,M,N
+2,PROSPECT  SA  5082,Toby,Poodle,Golden,20080126,M,Y
+1,PROSPECT  SA  5082,Lucy,Cavalier King Charles Spaniel,Tri Colour,20051017,F,Y
+1,PROSPECT  SA  5082,Bowser,Cavalier King Charles Spaniel,Blenheim,20090314,M,Y
+1,Prospect  SA  5082,Chiara,Doberman,Black,20080313,F,Y
+2,PROSPECT  SA  5082,Nikki,Papillon,White,20020815,F,Y
+2,PROSPECT  SA  5082,Monty,Papillon,White,20050402,M,N
+1,Prospect  SA  5082,Jack,Poodle,Black,20050119,M,Y
+1,PROSPECT  SA  5082,Ralph,Shihtzu,Apricot,20050610,M,Y
+1,PROSPECT  SA  5082,Diesel,German Shorthaired Pointer,Brown,20091126,M,Y
+2,Prospect  SA  5082,Shadow,Poodle,Black,20040313,F,Y
+3,PROSPECT  SA  5082,Milo,Beagle,Tan,20030708,M,Y
+3,PROSPECT  SA  5082,Beazley,Terrier Jack Russell,White,20010208,M,Y
+1,PROSPECT  SA  5082,Charlie,Labrador,Black,20060627,M,N
+2,Prospect  SA  5082,Schultz,Schnauser,Salt,20051203,M,Y
+1,PROSPECT  SA  5082,Jess,German Shepherd,Black & Tan,20081223,F,Y
+1,PROSPECT  SA  5082,Bonnie May,Cavalier King Charles Spaniel,Black,20070803,F,N
+1,PROSPECT  SA  5082,Austen,Corgi Welsh,Red,19991115,M,Y
+1,PROSPECT  SA  5082,Chester,Pomeranian,Beige,20020602,M,Y
+1,PROSPECT  SA  5082,Bert,Cavalier King Charles Spaniel,Ruby,20040804,M,Y
+1,Prospect  SA  5082,Mika,Maltese Terrier,White,20041219,F,Y
+1,PROSPECT  SA  5082,Milly,Maltese Terrier,Grey,20030501,F,Y
+1,PROSPECT  SA  5082,Maggie,Maltese Terrier,Black,20070720,F,Y
+1,Prospect  SA  5082,Barney,Terrier,Black,20040326,M,Y
+1,PROSPECT  SA  5082,Cherry,Kelpie,Tri Colour,20070609,F,Y
+1,PROSPECT  SA  5082,Lena,Alaskan Malamute,Black,20061007,F,Y
+2,PROSPECT  SA  5082,Milo,Maltese Terrier,Beige,20090905,M,Y
+1,PROSPECT  SA  5082,Molly,Spaniel Cocker,Red,20020705,F,Y
+2,PROSPECT  SA  5082,Bobby Magee,Border Collie,Beige,20060918,M,Y
+2,PROSPECT  SA  5082,Abbie Rose,Border Collie,Beige,20060918,F,Y
+2,PROSPECT  SA  5082,Bela,Beagle,Tri Colour,20050415,F,Y
+1,Prospect  SA  5082,Lucy,Terrier S`Shire Bull,Red,20031009,F,Y
+1,Prospect  SA  5082,Roj,Labrador,Black,20060108,M,Y
+2,PROSPECT  SA  5082,Madonna,Poodle,Apricot,20030203,M,Y
+1,PROSPECT  SA  5082,Trudy,Terrier,Sable,20060821,F,Y
+2,Prospect  SA  5082,Monty,Maltese Terrier,Black & White,20070507,F,N
+2,Prospect  SA  5082,Bojangles,Maltese Terrier,Fawn,20070507,M,Y
+1,PROSPECT  SA  5082,Charles Clarende 3,Cavalier King Charles Spaniel,White,20030706,M,Y
+1,Prospect  SA  5082,Boof,Maltese Terrier,White,20011021,M,Y
+2,PROSPECT  SA  5082,Bella,Doberman,Black & Tan,20090331,F,Y
+2,PROSPECT  SA  5082,Rosie,Terrier S`Shire Bull,Fawn,20070711,F,Y
+1,PROSPECT  SA  5082,Daisy,Labrador,Chocolate,20050226,F,Y
+1,PROSPECT  SA  5082,Honey,Maltese Terrier,Cream,20061022,F,N
+1,Prospect  SA  5082,Bix,Labrador,Black,20061225,F,Y
+1,Prospect  SA  5082,Evee,Bulldog,Red,20080830,F,N
+1,Prospect  SA  5082,Matilda,German Shepherd,Black,20040301,F,Y
+1,PROSPECT  SA  5082,Jack,Poodle,Black,20071106,M,Y
+2,Prospect  SA  5082,Meggatron,Maltese Terrier,White,20071003,M,Y
+2,Prospect  SA  5082,Trippy,Terrier Jack Russell,White,20071003,F,Y
+2,Prospect  SA  5082,Paw Paw,Poodle Toy,White,20001007,F,Y
+1,PROSPECT  SA  5082,Veruca,Chihuahua,Brown,19991130,F,Y
+1,PROSPECT  SA  5082,Noodle,Chihuahua,Brown,20000819,F,Y
+1,PROSPECT  SA  5082,Taffy,Terrier,Tan,19980701,F,Y
+1,PROSPECT  SA  5082,Rose Phillips,Australian Cattle Dog,Blue,20080716,F,Y
+1,PROSPECT  SA  5082,Lucy,Aust Terrier Silky,Golden,20041119,F,Y
+1,PROSPECT  SA  5082,Harley,Labrador,White,20091109,M,Y
+1,Prospect  SA  5082,Bailey,Retriever Golden,Tan,20051027,F,Y
+1,Prospect  SA  5082,Molly,Kelpie,Red,20040411,F,N
+1,PROSPECT  SA  5082,Nikki,Shihtzu,White,20020519,F,Y
+1,PROSPECT  SA  5082,Snitzel,Schnauser,Black,20010303,M,Y
+1,PROSPECT  SA  5082,Tilly,Heeler,Tri Colour,20010915,F,Y
+1,Prospect  SA  5082,Elly,Poodle,Black,20020721,F,Y
+1,Prospect  SA  5082,Baxter,Maltese Terrier,Black & White,20090113,M,Y
+1,PROSPECT  SA  5082,Shiela,Maltese Terrier,Grey,20080107,F,N
+1,PROSPECT  SA  5082,Capa,Retriever,Golden,20061023,M,Y
+2,PROSPECT  SA  5082,Marla,Dachshund,Tan,20041003,F,Y
+2,PROSPECT  SA  5082,Tjanpi,German Shepherd,Black,20041003,M,Y
+1,PROSPECT  SA  5082,Beau,Maltese Terrier,Apricot,20070405,M,Y
+1,Prospect  SA  5082,Jamiko (Miko),Shiba Inu,Red,20050723,F,Y
+2,PROSPECT  SA  5082,Blade,Terrier S`Shire Bull,Black,20060829,M,Y
+1,PROSPECT  SA  5082,Bandit,German Shepherd,Black,20050217,M,N
+2,PROSPECT  SA  5082,Daisy,Maltese Terrier,White,20081217,F,Y
+2,PROSPECT  SA  5082,Rosie,Maltese Terrier,White,20081217,F,Y
+1,PROSPECT  SA  5082,Bobby,Chihuahua,Tan,20070927,M,Y
+1,PROSPECT  SA  5082,Rosie,Terrier Jack Russell,Black,20000913,F,Y
+1,Prospect  SA  5082,Schildsy,Terrier Jack Russell,White,20001118,F,N
+2,Prospect  SA  5082,Smithers,Kelpie,Brown,20010423,M,N
+1,PROSPECT  SA  5082,Ally,Border Collie,Black & White,,F,N
+1,PROSPECT  SA  5082,Kramer,Lhasa Apso,Apricot,20041025,M,Y
+1,PROSPECT  SA  5082,Casper,Retriever,Golden,20020723,M,N
+1,PROSPECT  SA  5082,Deluxe,Cavalier King Charles Spaniel,Golden,20080313,F,N
+2,PROSPECT  SA  5082,Chloe,Corgi,Tan,20070619,F,Y
+2,PROSPECT  SA  5082,Gladys,Rottweiler,Black & Tan,20081015,M,Y
+1,PROSPECT  SA  5082,Q,Terrier Westhighland,White,20070202,M,N
+1,PROSPECT  SA  5082,Oscar,Maltese Terrier,Honey,20061108,M,Y
+2,PROSPECT  SA  5082,Bruce,Terrier Westhighland,White,20070409,M,Y
+1,Prospect  SA  5082,Mia,Maltese Terrier,Fawn,20030701,F,Y
+1,Prospect  SA  5082,Micky,Maltese Terrier,White,19990724,F,N
+1,Prospect  SA  5082,Trevor,German Shepherd,Rust,20030503,M,Y
+2,PROSPECT  SA  5082,Archie,Retriever Curly,Liver,20080807,M,Y
+2,PROSPECT  SA  5082,Poppi,Shihtzu,White,20040711,F,Y
+1,PROSPECT  SA  5082,Kyzer,Kangal,Brown,20090915,M,Y
+2,PROSPECT  SA  5082,Elly,Maltese Terrier,Black & White,20070420,F,Y
+2,PROSPECT  SA  5082,Owen,Retriever Golden,Tan,20001216,M,N
+2,PROSPECT  SA  5082,Frankie,Terrier Jack Russell,Tan,20041017,M,Y
+2,PROSPECT  SA  5082,Stella,Terrier Jack Russell,Tan,20041017,F,Y
+2,PROSPECT  SA  5082,Boo Boo,Chihuahua,White,20030306,M,N
+2,PROSPECT  SA  5082,Tess,Chihuahua,Tan,20020610,F,Y
+1,PROSPECT  SA  5082,Henry,Poodle Toy,Black,20050310,M,Y
+2,PROSPECT  SA  5082,Kramer,Hungarian Vizsla,Red,20080826,M,Y
+2,PROSPECT  SA  5082,Kybe,Hungarian Vizsla,Brown,20060803,F,Y
+2,PROSPECT  SA  5082,Fletch,Boxer,Tan,20040610,M,Y
+1,Prospect  SA  5082,Motsi,Terrier Fox Mini,Black,19990905,M,Y
+1,Prospect  SA  5082,Millie,Fox Terrier,Black,20020902,F,Y
+1,Prospect  SA  5082,Zara,Rhodesian Ridgeback,Sable,20080715,F,Y
+1,Prospect  SA  5082,Sally,Terrier,Brindle,20040513,F,Y
+1,Prospect  SA  5082,Stella,Terrier Jack Russell,White,20050212,F,Y
+1,Prospect  SA  5082,Roxy,Terrier Fox Mini,White,20010302,F,Y
+1,PROSPECT  SA  5082,Lily,Cavalier King Charles Spaniel,Tri Colour,20091122,F,Y
+1,PROSPECT  SA  5082,Maxx,Rhodesian Ridgeback,Black,20060827,M,N
+2,PROSPECT  SA  5082,Maggie,Mini Pinscher,Black,20030826,F,Y
+2,PROSPECT  SA  5082,Skip,Terrier Jack Russell,White,20050312,F,Y
+2,Prospect  SA  5082,Zach,Alaskan Malamute,Grey,20050121,M,Y
+1,Prospect  SA  5082,Ziggy,Terrier,Black,20021005,M,Y
+1,Prospect  SA  5082,Carla,Kelpie,Red,20010816,F,Y
+1,Prospect  SA  5082,Lu Lu,Terrier Westhighland,White,20080416,F,Y
+1,PROSPECT  SA  5082,Milo,Labrador,Golden,20070628,M,Y
+1,BROADVIEW  SA  5083,Ollie,Maltese Terrier,White,20090301,M,Y
+1,THORNGATE  SA  5082,Daisy,Retriever Golden,Golden,20090201,F,Y
+1,Prospect  SA  5082,Poppy,Maltese Terrier,White,20060402,F,Y
+1,PROSPECT  SA  5082,BB Rascus,Dachshund Mini,Red,20080916,M,N
+1,Prospect  SA  5082,Lilly,Shihtzu,Brown,20010324,F,N
+2,Prospect  SA  5082,Nancy,Maltese Terrier,Tan,20031030,F,Y
+2,Prospect  SA  5082,Clancy,Maltese Terrier,Tan,20031030,M,Y
+1,PROSPECT  SA  5082,Spatz,Maltese Terrier,White,20060104,M,Y
+1,PROSPECT  SA  5082,Ed,Terrier,Black & Tan,20071209,M,Y
+1,PROSPECT  SA  5082,Sooty,Maltese Terrier,Grey,19980701,M,Y
+1,FITZROY  SA  5082,Ozzy,Terrier Jack Russell,Black,19971030,M,Y
+2,Broadview  SA  5083,Bailey,Shihtzu,White,20020509,M,Y
+2,Broadview  SA  5083,Maddie,Shihtzu,Black,20021004,F,Y
+2,BROADVIEW  SA  5083,Poppy,American Cocker Spaniel,Golden,20070919,F,Y
+1,PROSPECT  SA  5082,Robbie,Cavalier King Charles Spaniel,Black & Tan,20031226,M,Y
+1,Prospect  SA  5082,Benny,Maltese Terrier,White,20040903,M,N
+1,Prospect  SA  5082,Meeka,Maltese Terrier,Tri Colour,20031005,F,Y
+1,PROSPECT  SA  5082,Tess,Heeler,Black,20020722,F,Y
+2,PROSPECT  SA  5082,Ruby,Terrier,Golden,20021217,F,Y
+1,Collinswood  SA  5081,Nigel,Chihuahua,Tan,,M,Y
+2,PROSPECT  SA  5082,Poppy,Labrador,White,20030706,F,Y
+2,PROSPECT  SA  5082,Amber,Cavalier King Charles Spaniel,Ruby,20061007,F,Y
+2,PROSPECT  SA  5082,Molly,Cavalier King Charles Spaniel,Black,20040902,F,Y
+1,PROSPECT  SA  5082,Alix,Chihuahua,Tan,20070917,F,Y
+1,PROSPECT  SA  5082,Con,Border Collie,Black,20020707,M,Y
+1,PROSPECT  SA  5082,Natasha,Terrier Jack Russell,Golden,20020409,F,N
+1,BROADVIEW  SA  5083,Indy,Bull Mastiff,Brindle,20060319,F,N
+1,NAILSWORTH  SA  5083,Blis,Terrier Westhighland,White,20100119,F,Y
+1,PROSPECT  SA  5082,Rocqui,German Shepherd,Black & Tan,20090211,M,Y
+1,PROSPECT  SA  5082,Max,Border Collie,Black,20071010,M,Y
+1,PROSPECT  SA  5082,Chester,Beagle,Tri Colour,20040715,M,Y
+1,Prospect  SA  5082,Chopper,Australian Cattle Dog,Blue,20080706,M,Y
+2,Prospect  SA  5082,Bailey,Beagle,White,20060523,M,Y
+1,Prospect SA 5082,Choko Bauer,Maltese Terrier,Chocolate,20031221,M,Y
+2,PROSPECT  SA  5082,Mavi,Spaniel Cocker,Golden,20091117,M,Y
+1,Prospect  SA  5082,Molly,Maltese Terrier,White,20030707,F,Y
+1,BROADVIEW  SA  5083,Latte,Maltese Terrier,Tan,20020917,M,Y
+1,COLLINSWOOD  SA  5081,Nike,Maltese Terrier,Blue,19930617,M,Y
+1,PROSPECT  SA  5082,Missy,Dachshund,Brown,20060520,F,Y
+1,PROSPECT  SA  5082,Cody,Kelpie,Brown,20090414,M,Y
+1,Prospect  SA  5082,Abby,Spaniel Cocker,Golden,20050421,F,Y
+2,Prospect  SA  5082,Chocco,Kelpie,Brown,20000921,F,Y
+1,PROSPECT  SA  5082,Teddy Cooper,Poodle,Apricot,20090418,M,Y
+1,PROSPECT  SA  5082,Oscar,Poodle Toy,Golden,20081014,M,Y
+1,Prospect  SA  5082,Toffee,Retriever Golden,Golden,,M,N
+1,PROSPECT  SA  5082,Little Ted,Poodle,Apricot,20001002,M,Y
+1,PROSPECT  SA  5082,Hevinly Hoarana Tiger,Maltese Terrier,Brown,20020202,M,Y
+1,PROSPECT  SA  5082,Turbo,Rhodesian Ridgeback,Tan,20050522,F,N
+1,COLLINSWOOD  SA  5081,Nigella,Pekinese,Tan,20051017,F,Y
+1,COLLINSWOOD  SA  5081,Nigella,Pekinese,Tan,20051017,F,Y
+1,Prospect  SA  5082,Charlie,Weimaraner,Sable,20030728,M,Y
+2,PROSPECT  SA  5082,Sammy,Chihuahua,Black,20010325,M,Y
+1,PROSPECT  SA  5082,Billy,Cavalier King Charles Spaniel,Brown,20051122,M,Y
+1,PROSPECT  SA  5082,Billy,Cavalier King Charles Spaniel,Brown,20051122,M,Y
+1,NAILSWORTH  SA  5083,Justice,Terrier S`Shire Bull,Red,20051001,M,Y
+1,PROSPECT  SA  5082,Oliver,Labrador,Ginger,20080104,M,Y
+1,Prospect  SA  5082,Chino,Maltese Terrier,Apricot,20030912,M,N
+1,PROSPECT  SA  5082,Daisy,Cavalier King Charles Spaniel,Tan,20061110,F,Y
+1,BROADVIEW  SA  5083,Dixie,Terrier Jack Russell,White,20000802,F,Y
+2,Prospect  SA  5082,Buster,Pug,Black,20080515,M,Y
+2,PROSPECT  SA  5082,Pepper,Maltese Terrier,Sable,20020618,F,Y
+1,MEDINDIE GARDENS  SA  5081,Mishka,Maltese Terrier,Tan,20030610,F,Y
+1,Prospect  SA  5082,Andre,Chihuahua,Brown,19980701,M,Y
+1,Prospect  5082,Harry,Cairn Terrier,Brown,20001124,M,Y
+2,PROSPECT  SA  5082,Coco,Greyhound Italian,Sable,20030615,F,Y
+1,PROSPECT  SA  5082,Oscar Pickles,Poodle,Black,20060214,M,Y
+1,PROSPECT  SA  5082,Poppy Coco Chanel,Poodle,Fawn,20050518,F,Y
+1,PROSPECT  SA  5082,Argo,Labrador,Yellow,20090326,M,N
+1,Prospect  SA  5082,Max,German Shorthaired Pointer,Liver,20090527,M,N
+1,NAILSWORTH  SA  5083,jessie,Lhasa Apso,White,20070101,F,Y
+1,Prospect  SA  5082,Scotty,Collie,Black,20031123,M,Y
+1,PROSPECT  SA  5082,Gough,Labrador,Golden,20030805,M,N
+1,FITZROY  SA  5082,Daisy Zelda,Labrador,Black,20050517,F,Y
+1,FITZROY  SA  5082,Bonnie,Terrier Westhighland,White,20050826,F,Y
+1,COLLINSWOOD  SA  5081,Cookie,Tenterfield Terrier,Tri Colour,20041226,F,Y
+1,BROADVIEW  SA  5083,Cassie,Heeler,Sable,20090419,F,Y
+1,PROSPECT  SA  5082,Lucy,Chinese Crested,Black & White,20070512,F,Y
+1,Prospect  SA  5082,Cyrus,Maltese Terrier,White,20081013,M,Y
+1,PROSPECT  SA  5082,Max,Bichon Frise,White,20030914,M,Y
+2,PROSPECT  SA  5082,Xena,Weimaraner,Silver,20030608,F,Y
+1,PROSPECT  SA  5082,Jagger,Weimaraner,Grey,20061014,M,Y
+1,Prospect  SA  5082,Misty,Maltese Terrier,White,20010408,F,Y
+1,PROSPECT  SA  5082,M Aggie,Shihtzu,Cream,19990313,F,Y
+1,PROSPECT  SA  5082,Nikki,Greyhound,Blue,20030809,F,Y
+1,Prospect  SA  5082,Denzel,Poodle Toy,Golden,20030324,M,Y
+1,OVINGHAM  SA  5082,Lulu,Terrier S`Shire Bull,Red,20040828,F,Y
+1,NAILSWORTH  SA  5083,Millie,Schnauser,Black & White,20030611,F,Y
+1,NAILSWORTH  SA  5083,Phoenix,Terrier Westhighland,White,20061218,M,N
+1,PROSPECT  SA  5082,Lucy,Chinese Crested,Black & White,20070512,F,Y
+1,PROSPECT  SA  5082,Chino,Maltese Terrier,Black & White,20070717,M,Y
+1,Prospect  SA  5082,Rocket,German Shorthaired Pointer,Liver,20041201,M,Y
+2,PROSPECT  SA  5082,Whitey,Terrier S`Shire Bull,White,20070228,M,N
+2,PROSPECT  SA  5082,Moo,Terrier S`Shire Bull,White,20070228,F,Y
+1,PROSPECT  SA  5082,Tully,Border Collie,Black,20071211,M,Y
+1,PROSPECT  SA  5082,Mojo,Schipperke,Black,20100213,M,N
+1,Prospect  SA  5082,Ellie,Maltese Terrier,White,,F,Y
+2,NAILSWORTH  SA  5083,Coco,Cavalier King Charles Spaniel,Ruby,20060107,F,Y
+1,Prospect  SA  5082,Chloe,Terrier,Tan,,F,Y
+1,PROSPECT  SA  5082,Morrissey,Maltese Terrier,Golden,,M,Y
+1,PROSPECT  SA  5082,Dudus,Beagle,Brown,20080403,M,N
+1,PROSPECT  SA  5082,Chino,Maltese Terrier,Black & White,20070717,M,Y
+1,PROSPECT  SA  5082,Gemma,Maltese Terrier,Grey,20090213,F,Y
+1,PROSPECT  SA  5082,Hebe,Maltese Terrier,White,20060427,F,Y
+1,Prospect  SA  5082,Charlie,Aust Terrier Silky,Black,20010610,M,Y
+1,Prospect  SA  5082,Sapphire,Pug,Black & White,20020506,F,Y
+2,NAILSWORTH  SA  5083,Ralph,Terrier Westhighland,White,20040505,M,Y
+2,NAILSWORTH  SA  5083,Cyd,Chihuahua,Blue,20050718,M,N
+2,Nailsworth  SA  5083,Gretel,Miniature Schnauser,Black & White,20081128,F,Y
+1,PROSPECT  SA  5082,Mactavish,Scottish Terrier,Black,20090215,M,Y
+1,PROSPECT  SA  5082,Mo Jo,Maltese Terrier,White,20080129,M,Y
+1,PROSPECT  SA  5082,Buffy,Rottweiler,Black & Tan,20011213,F,N
+1,Prospect  SA  5082,Coda,Shihtzu,Tan,20020101,M,Y
+1,PROSPECT  SA  5082,Dolly,Retriever Golden,Golden,20050417,F,N
+1,PROSPECT  SA  5082,Sam,Spaniel,White,20060911,F,Y
+1,PROSPECT  SA  5082,Gracie,Poodle Toy,Black,20080315,F,Y
+1,BROADVIEW  SA  5083,Henry,Poodle,Black & White,20050720,M,Y
+1,NAILSWORTH  SA  5083,Monty,Maltese Terrier,White,20000529,M,Y
+1,Prospect  SA  5082,Oscar,Terrier Westhighland,White,20020917,M,Y
+1,Prospect  SA  5082,Mia,Labrador,Black,20081214,F,Y
+1,FITZROY  SA  5082,Cooper,Pomeranian,Cream,20080128,M,N
+1,Broadview  SA  5083,Flower,Terrier Westhighland,White,,M,Y
+1,Broadview  SA  5083,Penny,Terrier Jack Russell,White,20070117,F,Y
+1,NAILSWORTH  SA  5083,Lachie,Terrier Westhighland,White,20090414,M,Y
+4,PROSPECT  SA  5082,Hannibal,Terrier S`Shire Bull,White,20080415,M,N
+1,PROSPECT  SA  5082,Jack,Spaniel Cocker,Black,20070515,M,Y
+1,PROSPECT  SA  5082,Ted,Terrier Jack Russell,White,20070515,M,N
+2,COLLINSWOOD  SA  5081,Tuppence (Tupee),Bichon Frise,White,20091115,M,Y
+3,BROADVIEW  SA  5083,Cleopatra,Poodle Toy,Apricot,20010820,F,Y
+1,BROADVIEW  SA  5083,Missy,Heeler,Black,20011204,F,Y
+2,COLLINSWOOD  SA  5081,Charlie,Maltese Terrier,White,20060303,M,Y
+2,COLLINSWOOD  SA  5081,Molly,Labrador,Brown,20070301,F,Y
+1,COLLINSWOOD  SA  5081,Chloe,Terrier Fox Mini,Tri Colour,20080313,F,Y
+1,PROSPECT  SA  5082,Riley,Scotch Terrier,Black,20040308,M,Y
+2,Prospect  SA  5082,Reggie,Border Collie,Black,20051105,M,Y
+1,BROADVIEW  SA  5083,Charlie,Poodle,Apricot,20031114,M,Y
+1,PROSPECT  SA  5082,Nero,Poodle,Black,20041208,M,Y
+1,PROSPECT  SA  5082,Keely,Poodle,Red,20070615,F,Y
+1,COLLINSWOOD  SA  5081,Lilly,Shihtzu,White,20061005,F,Y
+1,PROSPECT  SA  5082,Julian,Beagle,Tri Colour,20051006,M,Y
+1,COLLINSWOOD  SA  5081,Lilly,Shihtzu,White,20061005,F,Y
+1,BROADVIEW  SA  5083,Cuba,Retriever Golden,Golden,20090428,M,Y
+1,BROADVIEW  SA  5083,Cibo,Maltese Terrier,Black & White,20040204,M,Y
+1,PROSPECT  SA  5082,Mason,Bulldog,Brindle,20071212,M,Y
+1,PROSPECT  SA  5082,Cluezo,Beagle,Black,20060303,M,N
+2,Broadview  SA  5083,King,Terrier Jack Russell,White,20070917,M,Y
+2,PROSPECT  SA  5082,Chip,Poodle Toy,Black,20060219,M,Y
+1,PROSPECT  SA  5082,Chloe,Poodle Toy,Black,20071106,F,N
+1,PROSPECT  SA  5082,Lola,Poodle,Caramel,20070806,F,Y
+1,PROSPECT  SA  5082,Misti,Heeler,Black,20001005,F,Y
+1,PROSPECT  SA  5082,Tilly,Blue Heeler,Blue,20040530,F,Y
+1,PROSPECT  SA  5082,Jack,Maltese Terrier,White,19981113,M,Y
+2,PROSPECT  SA  5082,Thunder,Border Collie,Black & White,20070910,M,N
+2,BROADVIEW  SA  5083,Ringo,Maltese Terrier,White,20071127,M,N
+2,BROADVIEW  SA  5083,Harry,Cavalier King Charles Spaniel,Tan,20090531,M,N
+1,PROSPECT  SA  5082,Charlie,Cavalier King Charles Spaniel,Tri Colour,20060212,M,Y
+1,Prospect  SA  5082,Timmy,Kelpie,Black,20001214,M,Y
+1,COLLINSWOOD SA  5081,Harvey,Maltese Terrier,White,20020719,M,Y
+1,NAILSWORTH  SA  5083,Khandi,Terrier Jack Russell,Tri Colour,20081018,F,Y
+1,Prospect  SA  5082,Cassius Clay,Basenji,Red,20070104,M,Y
+1,PROSPECT SA  5082,Maddy,Beagle,Cream,20080614,F,Y
+2,BROADVIEW  SA  5083,LuLu,Bulldog,Brindle,20030320,F,Y
+2,BROADVIEW  SA  5083,Pele Austin,Pug,Black,20061222,M,Y
+1,NAILSWORTH  SA  5083,Holly,Retriever Golden,Golden,20010819,F,Y
+1,PROSPECT  SA  5082,Dora,Kelpie,Red,20080311,F,Y
+1,OVINGHAM  SA  5082,Moose,Shihtzu,Black,20000414,F,Y
+1,PROSPECT  SA  5082,Bella,Terrier Jack Russell,White,20080402,F,Y
+1,Prospect  SA  5082,Bella,Chihuahua,Black & White,20071216,F,Y
+1,PROSPECT  SA  5082,Suzie,Chihuahua,Black,20020516,F,N
+1,PROSPECT  SA  5082,Bean,Terrier,Tan,20070612,M,N
+1,PROSPECT  SA  5082,Fritz,Schnauser,Grey,20070201,M,Y
+1,Prospect  SA  5082,Howey,Spaniel Cocker,Golden,20040828,F,N
+1,COLLINSWOOD SA  5081,Blaze,Bulldog,Tan,20040928,M,Y
+2,NAILSWORTH  SA  5083,Bella,Terrier S`Shire Bull,Tan,20041228,F,N
+1,BROADVIEW  SA  5083,Coco,Labrador,Black,20091107,F,Y
+1,COLLINSWOOD  SA  5081,Sasha,Dalmation,Black,20000901,M,Y
+1,NAILSWORTH  SA  5083,Vucko,German Shepherd,Black & Tan,20070425,M,N
+1,BROADVIEW  SA  5083,Sam,Labrador,Golden,20080603,M,Y
+1,MEDINDIE GARDENS  SA  5081,Bees Knees (Bee),Cavalier King Charles Spaniel,Blenheim,20021020,F,Y
+2,COLLINSWOOD  SA  5081,Gus,Beagle,Tri Colour,20060208,M,Y
+2,COLLINSWOOD  SA  5081,Beau,Beagle,Tri Colour,20030907,M,Y
+1,NAILSWORTH  SA  5083,Madeleine Hortense,Maltese Terrier,Tri Colour,20050606,F,Y
+1,Broadview  SA  5083,Charlie,Maltese Terrier,White,20080509,M,Y
+1,BROADVIEW  SA  5083,Moet,Labrador,Black,20031210,F,Y
+1,PROSPECT  SA  5082,Jasper,Terrier Jack Russell,White,20041121,F,Y
+1,PROSPECT  SA  5082,Oscar,Terrier S`Shire Bull,Black,20080802,M,N
+1,PROSPECT  SA  5082,Bowser,Blue Heeler,White,20091028,M,Y
+1,PROSPECT  SA  5082,Seamus,Terrier Kerry Blue,Black,20071218,M,Y
+1,PROSPECT  SA  5082,Connor,Terrier Kerry Blue,Black,20071218,M,Y
+1,PROSPECT  SA  5082,Rosie,Boxer,Brindle,20080415,F,Y
+1,PROSPECT  SA  5082,Jackson,Border Collie,Black,20040308,M,N
+1,PROSPECT  SA  5082,Blue,Kelpie,Red,20080925,M,N
+1,PROSPECT  SA  5082,PJ,Pomeranian,Black,20010930,F,Y
+2,PROSPECT  SA  5082,Banjo,Beagle,Tri Colour,20041216,M,N
+1,MEDINDIE GARDENS  SA  5081,Shelley,Labrador,Golden,20090618,M,Y
+1,Broadview  SA  5083,Poppi,Maltese Terrier,Caramel,20040308,F,Y
+1,NAILSWORTH  SA  5083,Harry,Spaniel Cocker,Black,20020224,M,Y
+2,COLLINSWOOD  SA  5081,Wally,German Shorthaired Pointer,Liver,20071027,M,Y
+2,COLLINSWOOD  SA  5081,Alfie,Rottweiler,Black & Tan,20070612,M,Y
+1,BROADVIEW  SA  5083,Tiana,Poodle Toy,Apricot,20081215,F,Y
+1,FITZROY  SA  5082,Tsutsyk,Maltese Terrier,White,20020805,M,Y
+1,Prospect  SA  5082,Blaze,Heeler,Red,20040404,M,N
+1,PROSPECT  SA  5082,Trixie,Schnauser,Salt,20031016,F,Y
+2,Prospect  SA  5082,Bailey,Maltese Terrier,White,20070501,M,Y
+2,Prospect  SA  5082,McGee,Bulldog,Brindle,20080912,M,Y
+2,Prospect  SA  5082,Mavis,Bulldog,Brindle,20071230,F,Y
+1,Prospect  SA  5082,Diesel,American Bull Dog,Golden,20080915,M,N
+1,PROSPECT  SA  5082,Darcy,Spaniel Cocker,Tan,20090316,M,Y
+2,PROSPECT  SA  5082,Molly,Maltese Terrier,White,20090105,F,Y
+2,Prospect  SA  5082,Max,Terrier Jack Russell,Black,20040127,M,N
+1,FITZROY  SA  5082,Lucy,Poodle,Black,20060204,F,Y
+1,Prospect  SA  5082,Milly,Schnauser,Salt,20060125,F,Y
+2,Fitzroy  SA  5082,Archie,Terrier,Brindle,20080429,M,Y
+2,Fitzroy  SA  5082,Billy,Cairn Terrier,Wheaten,20080515,M,Y
+1,PROSPECT  SA  5082,bonnie,Pomeranian,White,20030622,F,Y
+1,MEDINDIE GARDENS  SA  5081,Whiskey,Terrier Westhighland,White,20031219,M,Y
+2,PROSPECT  SA  5082,Miska,Labrador,Black,20090802,F,Y
+2,Prospect  SA  5082,Teddy,Poodle Toy,Apricot,20040109,M,Y
+1,PROSPECT  SA  5082,Max,Shihtzu,White,20070207,M,Y
+1,PROSPECT  SA  5082,Gavin Hamish,Terrier Welsh,Black,,M,Y
