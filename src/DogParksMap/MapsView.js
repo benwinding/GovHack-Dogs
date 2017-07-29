@@ -31,14 +31,17 @@ class MapsView extends Component {
   }
 
   componentDidMount() {
-    PointsRepository.GetPointsFromApi("")
+    let url = "http://ipaddressToParksAPI";
+    PointsRepository.GetPointsFromApiRen(url)
     .then((points) => {
       console.log(points);
-      let pointComponents = points.map((point) => {
+      let pointComponents = points.data.map((point) => {
         return <MapPoint
-          lat={point.lat}
-          lng={point.lng}
-          text={point.name}
+          lat={-34.9285}
+          lng={138.6007}
+          // lat={point.lat}
+          // lng={point.lng}
+          text={point.ParkName}
         />;
       });
       this.setState({points: pointComponents})})
