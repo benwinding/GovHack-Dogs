@@ -58,8 +58,8 @@ MapsView.propTypes = {
 };
 
 MapsView.defaultProps = {
-  center: [-34.9285, 138.6007],
-  zoom: 9,
+  center: [-34.89, 138.6007],
+  zoom: 14,
   greatPlaceCoords: {lat: -34.6, lng: 138.80121}
 };
 
