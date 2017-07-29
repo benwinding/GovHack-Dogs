@@ -12,6 +12,7 @@ const responseGoogle = (response) => {
 
 export default class SignInPage extends Component {
   render() {
+    var search = "search";
     return (
       <div>
         <div className="video-background">
@@ -34,7 +35,7 @@ export default class SignInPage extends Component {
                   <br/>
                   <InputGroup>
                     <InputGroup.Addon><Glyphicon glyph="search"></Glyphicon></InputGroup.Addon>
-                    <FormControl type="text"/>
+                    <FormControl id="search" maxlength="100" name="q" acceskey="b" autocomplete="off" placeholder="enter text" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text"/>
                     <InputGroup.Button>
                       <Button>Go</Button>
                     </InputGroup.Button>
@@ -72,7 +73,6 @@ export default class SignInPage extends Component {
         />
       </div>);
   }
-
   static GetYoutube() {
     return (
       <div className="video-foreground" id="vid-yt">

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import "./MapPointPopup.css"
+import {FormGroup,FormControl,InputGroup,Button,Jumbotron,Glyphicon} from 'react-bootstrap';
 
 const K_WIDTH = 5;
 const K_HEIGHT = 5;
@@ -31,6 +32,7 @@ class MapPoint extends Component {
     return (
       <a>
         <div className="popUpName" href="#/detail" >
+          <Glyphicon glyph="map-marker"></Glyphicon>
           { this.props.$hover ? this.props.text : ""}
         </div>
       </a>
