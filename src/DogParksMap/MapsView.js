@@ -32,7 +32,7 @@ class GetMapStuff extends Component {
   }
 
   _onChildClick = (key, childProps) => {
-    this.props.onCenterChange([childProps.lat, childProps.lng]);
+    alert(childProps.text);
   };
 
   render () {
