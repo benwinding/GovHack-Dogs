@@ -46,11 +46,21 @@ class Stats(Resource):
                                GROUP BY Breed" %(sub))
         return {'data': [dict(zip(tuple(breeds.keys()), i)) for i in breeds.cursor]}, {'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'}
 
+class ParkStats(Resource):
+    def get(self):
+        park = request.args.get('parkid')
+        conn = e.connect()
+        reviews = conn.execute("SELECT username, rating, comment\
+                                FROM reviews\
+                                WHERE parkid = "+park)
 
+
+        return {'data': [dict(zip(tuple(reviews.keys()), i)) for i in reviews.cursor]}, {'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'}
 
 api.add_resource(Parks, '/parks')
 api.add_resource(Park, '/park')
 api.add_resource(Stats, '/dogstats')
+api.add_resource(ParkStats, '/reviews')
 
 
 if __name__ == '__main__':
