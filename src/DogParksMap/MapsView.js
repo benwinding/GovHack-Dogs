@@ -32,18 +32,21 @@ class GetMapStuff extends Component {
   }
 
   _onChildClick = (key, childProps) => {
-    alert(childProps.text);
+    window.location = '#/detail';
+  };
+
+  _onBoundsChange = (key, childProps) => {
+    this.GetPoints();
   };
 
   render () {
-    this.GetPoints();
-
     return (
       <div style={{width:"100vw", height:"100vh"}} >
         <GoogleMap
           bootstrapURLKeys={{key: gmapsApiKey}}
           center={[this.props.latitude,this.props.longitude]}
           zoom={this.props.zoom}
+          onBoundsChange={this._onBoundsChange}
           onChildClick={this._onChildClick}
         >
           { this.state.points }
@@ -81,7 +84,7 @@ MapsView.propTypes = {
 
 MapsView.defaultProps = {
   center: [-34.89, 138.6007],
-  zoom: 14
+  zoom: 11
 };
 
 export default geolocated({

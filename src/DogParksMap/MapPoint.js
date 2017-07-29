@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import "./MapPointPopup.css"
 
 const K_WIDTH = 5;
 const K_HEIGHT = 5;
@@ -26,12 +27,22 @@ class MapPoint extends Component {
     super(props);
   }
 
+  GetPopupDescription() {
+    return (
+      <a>
+        <div className="popUpName" href="#/detail" >
+          { this.props.$hover ? this.props.text : ""}
+        </div>
+      </a>
+    )
+  }
+
   render() {
     return (
       <div
         style={greatPlaceStyle}
       >
-        { this.props.$hover ? this.props.text : ""}
+        { this.props.$hover ? this.GetPopupDescription() : ""}
       </div>
     );
   }
