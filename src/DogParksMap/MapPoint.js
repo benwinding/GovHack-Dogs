@@ -22,10 +22,27 @@ const greatPlaceStyle = {
 };
 
 class MapPoint extends Component {
+  // state = {text: "pl"};
+  // constructor(props) {
+  //   super(props);
+  // }
+  //
+  // onHover() {
+  //   this.setState({
+  //     text: this.props.text
+  //   })
+  // }
+
   render() {
     return (
-      <div style={greatPlaceStyle}>
-        {this.props.text}
+      <div
+        style={greatPlaceStyle}
+        // onClick={this.onHover()}
+      >
+        {/*<div style={{"background-color": "red"}}>*/}
+          {/*X*/}
+        {/*</div>*/}
+        { this.props.text }
       </div>
     );
   }
