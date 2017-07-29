@@ -15,7 +15,7 @@ class MyMenuRoutes extends Component {
           <Route path='/profile' component={PuppyProfile}/>
           <Route path='/map' component={MapsView}/>
           <Route path='/swiper' component={SwiperView}/>
-          <Route path='/detail' component={DogParkDetail}/>
+          <Route path='/detail/:parkId' render={props => <DogParkDetail {...props.match.params} />}  />
         </Switch>
       </main>
     );
