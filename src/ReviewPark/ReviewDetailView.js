@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup} from "react-bootstrap";
+import {Table, Button, Glyphicon, InputGroup} from "react-bootstrap";
 import './ReviewDetailView.css';
 
 const rp = require('request-promise-native');
 
 class ReviewDetailView extends Component {
-  state={apiPark:""}
+  state={apiPark:[]}
 
   componentDidMount() {
-    let url = "http://203.122.234.198:5000/park?parkid=" + this.props.parkId;
+    let url = "http://203.122.234.198:5000/reviews?parkid=" + this.props.parkId;
     rp({uri: url})
       .then((body) => {
         let response = JSON.parse(body);
-        this.setState({apiPark: response.data[0]});
+        console.log(response);
+        this.setState({apiPark: response.data});
       })
       .catch((err) => {
         console.log(err);
@@ -21,16 +22,11 @@ class ReviewDetailView extends Component {
 
   render() {
     this.JsonTestingPrint();
-    let park = this.state.apiPark;
     return (
       <div className="detailPage">
-        <h1>Park: </h1>
+        <h1>Reviews of Park id: {this.props.parkId} </h1>
         <div className="detailContent">
-          Park Id: {this.props.parkId}
-          <br/>
-          ParkName {  park.ParkName  } <br/>
-          lat {  park.lat  } <br/>
-          lng {  park.lng  } <br/>
+          {this.GetReviews()}
         </div>
         <InputGroup>
           <InputGroup.Button >
@@ -44,6 +40,28 @@ class ReviewDetailView extends Component {
 
   JsonTestingPrint() {
     console.log(this.state.apiPark);
+  }
+
+  GetReviews() {
+    return(
+      this.state.apiPark.map((review) => {
+        return (
+          <Table striped border condensed hover responsive>
+            <tbody>
+              <tr>
+                <td>Username</td> <td>{review.username}</td>
+              </tr>
+              <tr>
+                <td>Rating</td> <td>{review.rating}</td>
+              </tr>
+              <tr>
+                <td>Comment</td> <td>{review.comment}</td>
+              </tr>
+            </tbody>
+          </Table>
+        )
+      })
+    )
   }
 }
 
