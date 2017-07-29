@@ -1,73 +1,65 @@
 import React, {Component} from 'react';
-import logo from '../boner-logo.svg';
-import './DogDetail.css';
-import MobileDetect from 'mobile-detect';
-import PropTypes from 'prop-types';
+import {Button, Glyphicon, InputGroup} from "react-bootstrap";
+import './DogParkDetail.css';
 const rp = require('request-promise-native');
 
 class DogParkDetail extends Component {
-    state={}
+    state={apiPark:""}
 
-    onComponentDidMount() {
-      let url = "http://203.122.234.198:5000/park?parkid=" + this.props.id
+    componentDidMount() {
+      let url = "http://203.122.234.198:5000/park?parkid=" + this.props.parkId;
       rp({uri: url})
       .then((body) => {
-        let dataJson = JSON.parse(body);
-
+        let response = JSON.parse(body);
+        this.setState({apiPark: response.data[0]});
       })
       .catch((err) => {
-
+        console.log(err);
       });
     }
 
     render() {
-
-        let backdropIMG = 'http://www.weekendnotes.com/im/003/03/bundoora-park1.jpg';
-
-        return (
-            <div className="col-xs-12 cardcont nopadding">
-
-              <div className="meta-data-container col-xs-12 col-md-8 push-md-4 col-lg-7 push-lg-5">
-                <h1>{this.state.title}</h1>
-
-                return (
-                <div>
-                  <div className="video-background">
-                      {DogParkDetail.GetBackgroundClip()}
-                  </div>
-
-                </div>
-              </div>
+       this.JsonTestingPrint();
+       let park = this.state.apiPark;
+       return (
+          <div className="detailPage">
+            <h1>Park: </h1>
+            <div className="detailContent">
+              Park Id: {this.props.parkId}
+              <br/>
+              ParkName {  park.ParkName  } <br/>
+              facilities__Toilet(accessible) { park['facilities__Toilet(accessible)']} <br/>
+              facilities__BBQfacilities {  park.facilities__BBQfacilities  } <br/>
+              facilities__Babychangeroom {  park.facilities__Babychangeroom  } <br/>
+              facilities__Boatramp {  park.facilities__Boatramp  } <br/>
+              facilities__Cafe {  park.facilities__Cafe  } <br/>
+              facilities__Parking {  park.facilities__Parking  } <br/>
+              facilities__Picnictable {  park.facilities__Picnictable  } <br/>
+              facilities__Playground {  park.facilities__Playground  } <br/>
+              facilities__Publictransportaccess {  park.facilities__Publictransportaccess  } <br/>
+              facilities__Shelter {  park.facilities__Shelter  } <br/>
+              facilities__Shower {  park.facilities__Shower  } <br/>
+              facilities__Sportsfield {  park.facilities__Sportsfield  } <br/>
+              facilities__Toilet {  park.facilities__Toilet  } <br/>
+              lat {  park.lat  } <br/>
+              lng {  park.lng  } <br/>
             </div>
-
+            <InputGroup>
+              <InputGroup.Button >
+                <Button href="#/map" bsStyle="warning" ><Glyphicon glyph="map-marker"></Glyphicon>   Back To Map</Button>
+              </InputGroup.Button>
+            </InputGroup>
+          </div>
         );
-
-        document.body.style.backgroundImage = 'url(' + backdropIMG + ')';
-
     }
 
-    static GetBackgroundClip() {
-        const md = new MobileDetect(window.navigator.userAgent);
-        if (md.phone())
-            return this.GetGif();
-        if (md.tablet())
-            return this.GetGif();
-        else
-            return this.GetGif();
-    }
-
-    static GetGif() {
-        return (
-            <div className="video-foreground" id="vid-gif">
-              <img
-                  src="./backgrounds/dogs.gif"
-                  alt={"The video in background"}
-              />
-            </div>);
-    };
+  JsonTestingPrint() {
+    console.log(this.state.apiPark);
+  }
 }
 
-DogParkDetail.propTypes = {};
-DogParkDetail.defaultProps = {};
+DogParkDetail.defaultProps = {
+  parkId: "No Id Given",
+};
 
 export default DogParkDetail;
