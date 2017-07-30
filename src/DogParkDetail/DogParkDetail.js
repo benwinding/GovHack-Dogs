@@ -60,7 +60,7 @@ class DogParkDetail extends Component {
           </Row>
         </div>
         <div className="detailPage">
-          <h1>Park</h1>
+          <h1>Park: {park.ParkName}</h1>
           <div className="detailContent">
             <Row className="show-grid">
               <Col md={6}  >
