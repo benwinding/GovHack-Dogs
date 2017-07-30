@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import GoogleLogin from "react-google-login";
-import logo from '../boner-logo.svg';
+import logo from '../logo-textOnly.png';
 import './SignInPage.css';
 import MobileDetect from 'mobile-detect';
-import {FormGroup,FormControl,InputGroup,Button,Jumbotron,Glyphicon} from 'react-bootstrap';
+import {FormGroup,InputGroup,Button,Glyphicon} from 'react-bootstrap';
+import Autocomplete from 'react-google-autocomplete';
 
-
-const responseGoogle = (response) => {
-  console.log(response);
+const styleAutoComplete = {
+  height: "38px",
+  width: "100%",
+  color: "grey"
 };
 
 export default class SignInPage extends Component {
   render() {
-    var search = "search";
     return (
       <div>
         <div className="video-background">
@@ -24,9 +24,8 @@ export default class SignInPage extends Component {
             <div className="Signin-logo">
               <img src={logo} alt="logo" />
             </div>
-              <h1><i></i></h1>
-              <p>
-                <FormGroup style={{padding:"50",width:500, margin:"auto", color:"#fff"}}>
+              <div>
+                <FormGroup style={{"paddingTop":"40px","minWidth":"100px", width:"300px", margin:"auto", color:"#fff"}}>
                   <InputGroup>
                     <InputGroup.Button >
                       <Button href="#/map" bsStyle="warning" ><Glyphicon glyph="map-marker"></Glyphicon>   Use My Location</Button>
@@ -35,19 +34,23 @@ export default class SignInPage extends Component {
                   <br/>
                   <InputGroup>
                     <InputGroup.Addon><Glyphicon glyph="search"></Glyphicon></InputGroup.Addon>
-                    <FormControl id="search" maxlength="100" name="q" acceskey="b" autocomplete="off" placeholder="enter text" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text"/>
-                    <InputGroup.Button>
-                      <Button>Go</Button>
-                    </InputGroup.Button>
+                    <Autocomplete
+                      style={styleAutoComplete}
+                      onPlaceSelected={(place) => {
+                        let location = place.geometry.location;
+                        console.log(location.lat());
+                        console.log(location.lng());
+                        window.location = '#/map/' + location.lat() + '/' + location.lng();
+                      }}
+                      types={['(regions)']}
+                      componentRestrictions={{country: "au"}}
+                    />
+                    {/*<InputGroup.Button >*/}
+                      {/*<Button style={{height: "38px"}} type="submit" onClick={this.onClickGo}>Go</Button>*/}
+                    {/*</InputGroup.Button>*/}
                   </InputGroup>
                 </FormGroup>
-              </p>
-
-            <div className="Signin-desc">
-
-
-            </div>
-
+              </div>
           </div>
         </div>
       </div>
@@ -72,18 +75,5 @@ export default class SignInPage extends Component {
           alt={"The video in background"}
         />
       </div>);
-  }
-  static GetYoutube() {
-    return (
-      <div className="video-foreground" id="vid-yt">
-        <iframe
-          className="vid-yt"
-          src={"https://www.youtube.com/embed/IGJCx2ug0lU?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=IGJCx2ug0lU"}
-          allowFullScreen
-          frameBorder={0}
-          title={"The video in background"}
-        />
-      </div>
-    );
   }
 }
