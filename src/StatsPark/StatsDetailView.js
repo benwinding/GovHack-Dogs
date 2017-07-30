@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Button, Col, Glyphicon, InputGroup, Row} from "react-bootstrap";
 import './StatsDetailView.css';
 import Table from "react-bootstrap/es/Table";
-import {Pie, PieChart, Tooltip} from "recharts";
+import {Pie, PieChart, Tooltip, Cell} from "recharts";
 
 const uuidv1 = require('uuid/v1');
 const rp = require('request-promise-native');
@@ -26,10 +26,10 @@ class StatsDetailView extends Component {
     this.JsonTestingPrint();
     return (
       <div className="detailPage">
-        <h1>Park: {this.props.suburb}</h1>
+        <h1>{this.props.suburb}</h1>
         <div className="detailContent">
           {this.GetChart()}
-          {this.GetTables()}
+
         </div>
         <InputGroup>
           <InputGroup.Button >
@@ -45,6 +45,7 @@ class StatsDetailView extends Component {
   }
 
   GetChart() {
+    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
     let breedCounts = this.GetData();
     let breedsFormatted = breedCounts.map((stat) => {
       return {
@@ -52,7 +53,7 @@ class StatsDetailView extends Component {
         value: Number(stat["COUNT(Breed)"])
       }
     });
-    let proportionOfOther = 30;
+    let proportionOfOther = 50;
     let countAllDogs = breedsFormatted.reduce((sum, val) => {return sum + val.value}, 0);
     let topDogs = breedsFormatted.filter((a) => {return a.value > countAllDogs/proportionOfOther});
     let countTopDogs = topDogs.reduce((sum, val) => {return sum + val.value}, 0);
@@ -64,9 +65,19 @@ class StatsDetailView extends Component {
     });
 
     return (
-      <PieChart width={400} height={400}>
-        <Pie dataKey="value" nameKey="name" isAnimationActive={true} data={topDogs} cx={200} cy={200} outerRadius={80} fill="#8884d8" label/>
-        <Pie dataKey="value" data={topDogs} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d"/>
+      <PieChart width={800} height={400}>
+        <Pie
+            data={topDogs}
+            cx={625}
+            cy={200}
+            label
+            outerRadius={80}
+            fill="#8884d8"
+        >
+            {
+                topDogs.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]}/>)
+            }
+        </Pie>
         <Tooltip/>
       </PieChart>
     )
