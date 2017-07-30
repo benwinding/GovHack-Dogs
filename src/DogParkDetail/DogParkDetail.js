@@ -6,10 +6,10 @@ import MapPointYourLocation from "../DogParksMap/MapPointYourLocation";
 import 'font-awesome/css/font-awesome.css'
 import MenuFooter from "../FooterMenu/MenuFooter";
 
-import pic1 from './dogPark1.jpeg';
-import pic2 from './dogPark2.jpeg';
-import pic3 from './dogPark3.jpeg';
-import pic4 from './dogPark4.jpeg';
+import p1 from './dogPark1.jpeg';
+import p2 from './dogPark2.jpeg';
+import p3 from './dogPark3.jpeg';
+import p4 from './dogPark4.jpeg';
 
 const rp = require('request-promise-native');
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
@@ -34,8 +34,16 @@ class DogParkDetail extends Component {
     apiPark:{
       lat:-34.89,
       lng:138.6007
-    }
+    },
+    randomImage: ""
   };
+
+  constructor(props) {
+    super(props);
+
+    let images = [p1,p2,p3,p4];
+    this.state.randImage = images[Math.floor(Math.random()*images.length)];
+  }
 
   componentDidMount() {
     let url = "http://203.122.234.198:5000/park?parkid=" + this.props.parkId;
@@ -67,6 +75,9 @@ class DogParkDetail extends Component {
         </div>
         <div className="detailPage">
           <h1>Park: {park.ParkName}</h1>
+          <div className="backImage">
+            <img src={p1} alt="logo" className="backImage" />
+          </div>
           <div className="detailContent">
             <Row className="show-grid">
               <Col md={6}  >
