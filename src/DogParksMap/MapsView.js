@@ -85,7 +85,7 @@ MapsView.propTypes = {
 
 MapsView.defaultProps = {
   center: [-34.89, 138.6007],
-  zoom: 11
+  zoom: 13
 };
 
 export default geolocated({
