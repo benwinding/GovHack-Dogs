@@ -24,7 +24,8 @@ class ReviewDetailView extends Component {
     this.JsonTestingPrint();
     return (
       <div className="detailPage">
-        <h1>Reviews of Park id: {this.props.parkId} </h1>
+        {/*<h1>Reviews of Park id: {this.props.parkId} </h1>*/}
+        <h1>Reviews of: Bonython Park/Tulya Wardli</h1>
         <div className="detailContent">
           {this.GetReviews()}
         </div>
