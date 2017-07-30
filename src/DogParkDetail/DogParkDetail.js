@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup,Table,Row,Col} from "react-bootstrap";
+import {Button, Glyphicon, InputGroup, Table, Row, Col, Breadcrumb} from "react-bootstrap";
 import './DogParkDetail.css';
 import GoogleMap from 'google-map-react';
 import MapPointYourLocation from "../DogParksMap/MapPointYourLocation";
 import 'font-awesome/css/font-awesome.css'
-const rp = require('request-promise-native');
+import MenuFooter from "../FooterMenu/MenuFooter";
 
+import pic1 from './dogPark1.jpeg';
+import pic2 from './dogPark2.jpeg';
+import pic3 from './dogPark3.jpeg';
+import pic4 from './dogPark4.jpeg';
+
+const rp = require('request-promise-native');
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
 class DetailRow extends Component {
@@ -102,19 +108,20 @@ class DogParkDetail extends Component {
               </Col>
             </Row>
           </div>
-          <div className="escButton">
+          <div>
             <Row >
               <Col>
                 <InputGroup>
                   <InputGroup.Button >
                     <Button href={"#/review/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="star"></Glyphicon>   Reviews</Button>
-                    <Button href={"#/stats/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
+                    <Button href={"#/stats/"+park.parkName} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
                   </InputGroup.Button>
                 </InputGroup>
               </Col>
             </Row>
           </div>
         </div>
+        <MenuFooter/>
       </div>
     );
   }
