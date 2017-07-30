@@ -26,10 +26,11 @@ class StatsDetailView extends Component {
     this.JsonTestingPrint();
     return (
       <div className="detailPage">
-        <h1>{this.props.suburb}</h1>
+        {/*<h1>{this.props.suburb}</h1>*/}
+        <h1>Dog Stats</h1>
+        <h2>Adelaide</h2>
         <div className="detailContent">
           {this.GetChart()}
-
         </div>
         <InputGroup>
           <InputGroup.Button >
@@ -64,11 +65,17 @@ class StatsDetailView extends Component {
       value: countOtherDogs
     });
 
+    let pieWidth = 800;
+    let screenWidth = window.innerWidth/2;
+
     return (
-      <PieChart width={800} height={400}>
+      <PieChart width={window.innerWidth} height={400}>
         <Pie
             data={topDogs}
-            cx={625}
+            dataKey="value"
+            nameKey="name"
+            cx={300}
+            //cx={220}
             cy={200}
             label
             outerRadius={80}
