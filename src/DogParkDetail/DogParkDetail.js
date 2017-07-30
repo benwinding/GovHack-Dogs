@@ -102,6 +102,18 @@ class DogParkDetail extends Component {
               </Col>
             </Row>
           </div>
+          <div className="escButton">
+            <Row >
+              <Col>
+                <InputGroup>
+                  <InputGroup.Button >
+                    <Button href={"#/review/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="star"></Glyphicon>   Reviews</Button>
+                    <Button href={"#/stats/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
+                  </InputGroup.Button>
+                </InputGroup>
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
     );
