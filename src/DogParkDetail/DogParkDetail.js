@@ -126,7 +126,7 @@ class DogParkDetail extends Component {
                 <InputGroup>
                   <InputGroup.Button >
                     <Button href={"#/review/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="star"></Glyphicon>   Reviews</Button>
-                    <Button href={"#/stats/"+park.parkName} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
+                    <Button href={"#/stats/adelaide"} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
                   </InputGroup.Button>
                 </InputGroup>
               </Col>
