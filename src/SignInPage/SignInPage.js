@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../logo-textOnly.png';
 import './SignInPage.css';
 import MobileDetect from 'mobile-detect';
-import {FormGroup,FormControl,InputGroup,Button,Glyphicon} from 'react-bootstrap';
+import {FormGroup,InputGroup,Button,Glyphicon} from 'react-bootstrap';
 import Autocomplete from 'react-google-autocomplete';
 
 const styleAutoComplete = {
