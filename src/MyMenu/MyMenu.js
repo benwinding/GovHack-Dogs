@@ -37,7 +37,7 @@ class MyMenu extends Component {
         <MyMenuItem fa="fa-home" menuHref="#/" menuName="Home" onItemClick={this.onItemClick} />
         {/*<MyMenuItem fa="fa-user-circle-o" menuHref="#/profile" menuName="Profile" onItemClick={this.onItemClick}/>*/}
         <MyMenuItem fa="fa-map" menuHref="#/map" menuName="Map" onItemClick={this.onItemClick}/>
-        <MyMenuItem fa="fa fa-user" menuHref="#/about" menuName="About" onItemClick={this.onItemClick}/>
+        <MyMenuItem fa="fa fa-user" menuHref="#/about" menuName="About Us" onItemClick={this.onItemClick}/>
         {/*<MyMenuItem fa="fa-heart" menuHref="#/swiper" menuName="Swipe" onItemClick={this.onItemClick}/>*/}
         {/*<MyMenuItem fa="fa-id-card-o" menuHref="#/detail" menuName="Detail" onItemClick={this.onItemClick}/>*/}
         {/*<MyMenuItem fa="fa-star" menuHref="#/review" menuName="Detail" onItemClick={this.onItemClick}/>*/}
