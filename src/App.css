@@ -5,3 +5,11 @@
   height: 100vh;
   overflow: auto;
 }
+
+.betaTag {
+  position: absolute;
+  z-index: 9999;
+  height: 100px;
+  right: 20px;
+  top: 20px;
+}
