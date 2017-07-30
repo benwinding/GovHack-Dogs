@@ -6,6 +6,7 @@ import MapsView from "../DogParksMap/MapsView";
 import DogParkDetail from "../DogParkDetail/DogParkDetail";
 import ReviewDetailView from "../ReviewPark/ReviewDetailView";
 import StatsDetailView from "../StatsPark/StatsDetailView";
+import AboutUsPage from "../AboutUs/AboutUsPage";
 
 class MyMenuRoutes extends Component {
   render() {
@@ -19,6 +20,7 @@ class MyMenuRoutes extends Component {
           <Route path='/detail/:parkId' render={props => <DogParkDetail {...props.match.params} />}  />
           <Route path='/review/:parkId' render={props => <ReviewDetailView {...props.match.params} />}  />
           <Route path='/stats/:suburb' render={props => <StatsDetailView {...props.match.params} />}  />
+          <Route path='/about' component={AboutUsPage}  />
         </Switch>
       </main>
     );
