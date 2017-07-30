@@ -35,9 +35,32 @@ class Park(Resource):
                               WHERE _rowid_ =" + id)
         return {'data': [dict(zip(tuple (query.keys()), i)) for i in query.cursor]}, {'Content-Type': 'application/json', 'Access-Control-Allow-Origin':'*'}
 
+class Stats(Resource):
+    def get(self):
+        sub = request.args.get('suburb')
+        sub = sub.lower()
+        conn = e.connect()
+
+        breeds = conn.execute("SELECT COUNT(Breed), Breed\
+                               FROM (SELECT Breed FROM stats WHERE Suburb = %s)\
+                               GROUP BY Breed" %(sub))
+        return {'data': [dict(zip(tuple(breeds.keys()), i)) for i in breeds.cursor]}, {'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'}
+
+class ParkStats(Resource):
+    def get(self):
+        park = request.args.get('parkid')
+        conn = e.connect()
+        reviews = conn.execute("SELECT username, rating, comment\
+                                FROM reviews\
+                                WHERE parkid = "+park)
+
+
+        return {'data': [dict(zip(tuple(reviews.keys()), i)) for i in reviews.cursor]}, {'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'}
 
 api.add_resource(Parks, '/parks')
 api.add_resource(Park, '/park')
+api.add_resource(Stats, '/dogstats')
+api.add_resource(ParkStats, '/reviews')
 
 
 if __name__ == '__main__':
