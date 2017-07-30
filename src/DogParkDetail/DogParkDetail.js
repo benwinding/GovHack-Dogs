@@ -1,11 +1,17 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup,Table,Row,Col} from "react-bootstrap";
+import {Button, Glyphicon, InputGroup, Table, Row, Col, Breadcrumb} from "react-bootstrap";
 import './DogParkDetail.css';
 import GoogleMap from 'google-map-react';
 import MapPointYourLocation from "../DogParksMap/MapPointYourLocation";
 import 'font-awesome/css/font-awesome.css'
-const rp = require('request-promise-native');
+import MenuFooter from "../FooterMenu/MenuFooter";
 
+import p1 from './dogPark1.jpeg';
+import p2 from './dogPark2.jpeg';
+import p3 from './dogPark3.jpeg';
+import p4 from './dogPark4.jpeg';
+
+const rp = require('request-promise-native');
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
 class DetailRow extends Component {
@@ -28,14 +34,23 @@ class DogParkDetail extends Component {
     apiPark:{
       lat:-34.89,
       lng:138.6007
-    }
+    },
+    randomImage: ""
   };
+
+  constructor(props) {
+    super(props);
+
+    let images = [p1,p2,p3,p4];
+    this.state.randImage = images[Math.floor(Math.random()*images.length)];
+  }
 
   componentDidMount() {
     let url = "http://203.122.234.198:5000/park?parkid=" + this.props.parkId;
     rp({uri: url})
       .then((body) => {
         let response = JSON.parse(body);
+
         this.setState({apiPark: response.data[0]});
       })
       .catch((err) => {
@@ -61,6 +76,9 @@ class DogParkDetail extends Component {
         </div>
         <div className="detailPage">
           <h1>Park: {park.ParkName}</h1>
+          <div className="backImage">
+            <img src={p1} alt="logo" className="backImage" />
+          </div>
           <div className="detailContent">
             <Row className="show-grid">
               <Col md={6}  >
@@ -102,19 +120,20 @@ class DogParkDetail extends Component {
               </Col>
             </Row>
           </div>
-          <div className="escButton">
+          <div>
             <Row >
               <Col>
                 <InputGroup>
                   <InputGroup.Button >
                     <Button href={"#/review/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="star"></Glyphicon>   Reviews</Button>
-                    <Button href={"#/stats/"+this.props.parkId} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
+                    <Button href={"#/stats/"+park.parkName} bsStyle="warning" ><Glyphicon glyph="stats"></Glyphicon>   Stats</Button>
                   </InputGroup.Button>
                 </InputGroup>
               </Col>
             </Row>
           </div>
         </div>
+        <MenuFooter/>
       </div>
     );
   }

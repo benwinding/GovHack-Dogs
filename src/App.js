@@ -10,7 +10,6 @@ export default class App extends Component {
       <div className="App" id="outer-container">
         <MyMenu />
         <MyMenuRoutes id="page-wrap"/>
-        <MenuFooter />
       </div>
     );
   }
