@@ -5,7 +5,6 @@ import PointsRepository from './PointsRepository';
 import MapPoint from "./MapPoint";
 import {geolocated} from 'react-geolocated';
 import MapPointYourLocation from "./MapPointYourLocation";
-import DogParkDetail from "../DogParkDetail/DogParkDetail";
 
 const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
