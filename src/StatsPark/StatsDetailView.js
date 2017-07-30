@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup} from "react-bootstrap";
+import {Button, Col, Glyphicon, InputGroup, Row} from "react-bootstrap";
 import './StatsDetailView.css';
 import Table from "react-bootstrap/es/Table";
 import {Pie, PieChart, Tooltip} from "recharts";
@@ -41,7 +41,7 @@ class StatsDetailView extends Component {
   }
 
   JsonTestingPrint() {
-    console.log(this.GetData());
+    //console.log(this.GetData());
   }
 
   GetChart() {
@@ -52,7 +52,7 @@ class StatsDetailView extends Component {
         value: Number(stat["COUNT(Breed)"])
       }
     });
-    let proportionOfOther = 20;
+    let proportionOfOther = 30;
     let countAllDogs = breedsFormatted.reduce((sum, val) => {return sum + val.value}, 0);
     let topDogs = breedsFormatted.filter((a) => {return a.value > countAllDogs/proportionOfOther});
     let countTopDogs = topDogs.reduce((sum, val) => {return sum + val.value}, 0);
@@ -74,9 +74,10 @@ class StatsDetailView extends Component {
 
   GetTables() {
     let breedCounts = this.GetData();
-    let sorted = breedCounts.sort((a,b) =>
-      Number(a["COUNT(Breed)"]) < Number(b["COUNT(Breed)"])
+    breedCounts.sort((a,b) =>
+      Number(b["COUNT(Breed)"]) - Number(a["COUNT(Breed)"])
     );
+    console.log(breedCounts);
     return (
       <Table striped condensed hover responsive>
         <thead>
@@ -87,7 +88,7 @@ class StatsDetailView extends Component {
         </thead>
         <tbody>
         {
-          sorted.map((stat) => {
+          breedCounts.map((stat) => {
             return (
               <tr key={uuidv1()} >
                 <td>{stat["Breed"]}</td>
@@ -103,7 +104,7 @@ class StatsDetailView extends Component {
 
   GetData() {
     let breedCounts = this.state.apiPark;
-    breedCounts = [
+    let breedCounts2 = [
       {"Breed": "lab", "COUNT(Breed)": "32"},
       {"Breed": "chi", "COUNT(Breed)": "21"},
       {"Breed": "nac", "COUNT(Breed)": "124"},
