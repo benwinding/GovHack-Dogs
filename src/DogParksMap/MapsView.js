@@ -12,7 +12,7 @@ class GetMapStuff extends Component {
   state = {};
 
   GetPoints() {
-    let url = `http://203.122.234.198:5000/parks?lat=${this.props.latitude}&lng=${this.props.longitude}`;
+    let url = `https://ppp234-198.static.internode.on.net:5001/parks?lat=${this.props.latitude}&lng=${this.props.longitude}`;
     PointsRepository.GetPointsFromApiRens(url)
       .then((responseJson) => {
         console.log(responseJson);
