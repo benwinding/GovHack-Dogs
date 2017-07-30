@@ -50,6 +50,7 @@ class DogParkDetail extends Component {
     rp({uri: url})
       .then((body) => {
         let response = JSON.parse(body);
+
         this.setState({apiPark: response.data[0]});
       })
       .catch((err) => {
