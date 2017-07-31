@@ -1,11 +1,25 @@
 .about{
-    padding: 10px 0 0 50px;
-    margin-top: 4%;
+    padding: 10px;
 }
+
 .title{
     font-size: 5em;
+    text-align: center;
 }
-.about p{
-    word-break: break-all;
+
+p {
     text-align: left;
+}
+
+.aboutImage {
+    width: 100%;
+}
+
+.aboutLogo {
+    width: 40%;
+}
+
+.videoLink > a {
+    font-size: large;
+    color: #157fea;
 }
