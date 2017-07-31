@@ -30,7 +30,18 @@ class StatsDetailView extends Component {
         <h1>Dog Stats</h1>
         <h2>Adelaide</h2>
         <div className="detailContent">
-          {this.GetChart()}
+          <Row>
+            <Col md={6} xs={12}>
+              <Row>
+                <Col xsOffset={2} xs={8}>
+                  {this.GetChart()}
+                </Col>
+              </Row>
+            </Col>
+            <Col md={6} xs={12}>
+              {this.GetTables()}
+            </Col>
+          </Row>
         </div>
         <InputGroup>
           <InputGroup.Button >
@@ -65,25 +76,31 @@ class StatsDetailView extends Component {
       value: countOtherDogs
     });
 
-    let pieWidth = 800;
-    let screenWidth = window.innerWidth/2;
-
+    let pieWidth = 100;
+    let pieMargin = 40;
     return (
-      <PieChart width={window.innerWidth} height={400}>
+      <PieChart
+        width={(pieWidth+pieMargin)*2}
+        height={(pieWidth+pieMargin)*2}
+      >
         <Pie
-            data={topDogs}
-            dataKey="value"
-            nameKey="name"
-            cx={300}
-            //cx={220}
-            cy={200}
-            label
-            outerRadius={80}
-            fill="#8884d8"
+          data={topDogs}
+          dataKey="value"
+          nameKey="name"
+          cx={pieWidth+pieMargin}
+          cy={pieWidth+pieMargin}
+          label
+          outerRadius={pieWidth}
+          fill="#8884d8"
         >
-            {
-                topDogs.map((entry, index) => <Cell fill={COLORS[index % COLORS.length]}/>)
-            }
+          {
+            topDogs.map((entry, index) => {
+              return <Cell
+                key={uuidv1()}
+                fill={COLORS[index % COLORS.length]}
+              />
+            })
+          }
         </Pie>
         <Tooltip/>
       </PieChart>
@@ -99,10 +116,10 @@ class StatsDetailView extends Component {
     return (
       <Table striped condensed hover responsive>
         <thead>
-          <tr>
-            <th>Breed</th>
-            <th>Count</th>
-          </tr>
+        <tr>
+          <th>Breed</th>
+          <th>Count</th>
+        </tr>
         </thead>
         <tbody>
         {
