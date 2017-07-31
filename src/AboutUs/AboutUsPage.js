@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Row, Col, Grid,} from 'react-bootstrap';
 import './AboutUsStyle.css';
-import photo from '../photo.jpg';
+import teamPhoto from '../photo.jpg';
 import logo from '../logo.png';
 
 
@@ -17,7 +17,7 @@ export default class AboutUsPage extends Component {
           </Row>
           <Row>
             <Col sm="6">
-              <img src={ photo } className="aboutImage"/>
+              <img src={ teamPhoto } alt="Team" className="aboutImage"/>
             </Col>
             <Col sm="6">
               <p>

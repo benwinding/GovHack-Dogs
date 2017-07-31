@@ -20,10 +20,6 @@ const greatPlaceStyle = {
 };
 
 class MapPointYourLocation extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div

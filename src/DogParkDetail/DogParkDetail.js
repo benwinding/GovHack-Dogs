@@ -21,7 +21,7 @@ class DetailRow extends Component {
       <td><i className={faField}></i></td>
       <td>{this.props.name}</td>
     </tr>);
-    return this.props.value == "TRUE" ? row : <i />;
+    return this.props.value === "TRUE" ? row : <i />;
   }
 }
 
@@ -30,19 +30,17 @@ DetailRow.defaultProps = {
 };
 
 class DogParkDetail extends Component {
-  state={
-    apiPark:{
-      lat:-34.89,
-      lng:138.6007
-    },
-    randomImage: ""
-  };
-
   constructor(props) {
     super(props);
 
     let images = [p1,p2,p3,p4];
-    this.state.randImage = images[Math.floor(Math.random()*images.length)];
+    this.setState({
+      apiPark:{
+        lat:-34.89,
+        lng:138.6007
+      },
+      randomImage: images[Math.floor(Math.random()*images.length)]
+    });
   }
 
   componentDidMount() {

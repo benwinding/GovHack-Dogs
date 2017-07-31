@@ -138,20 +138,19 @@ class StatsDetailView extends Component {
   }
 
   GetData() {
-    let breedCounts = this.state.apiPark;
-    let breedCounts2 = [
-      {"Breed": "lab", "COUNT(Breed)": "32"},
-      {"Breed": "chi", "COUNT(Breed)": "21"},
-      {"Breed": "nac", "COUNT(Breed)": "124"},
-      {"Breed": "4rfqw", "COUNT(Breed)": "263"},
-      {"Breed": "sacafwd", "COUNT(Breed)": "213"},
-      {"Breed": "afwww", "COUNT(Breed)": "37"},
-      {"Breed": "nacc", "COUNT(Breed)": "14"},
-      {"Breed": "4rfqasw", "COUNT(Breed)": "63"},
-      {"Breed": "afwd", "COUNT(Breed)": "21"},
-      {"Breed": "afwwcw", "COUNT(Breed)": "36"}
-    ];
-    return breedCounts;
+    // let breedCounts2 = [           // test data
+    //   {"Breed": "lab", "COUNT(Breed)": "32"},
+    //   {"Breed": "chi", "COUNT(Breed)": "21"},
+    //   {"Breed": "nac", "COUNT(Breed)": "124"},
+    //   {"Breed": "4rfqw", "COUNT(Breed)": "263"},
+    //   {"Breed": "sacafwd", "COUNT(Breed)": "213"},
+    //   {"Breed": "afwww", "COUNT(Breed)": "37"},
+    //   {"Breed": "nacc", "COUNT(Breed)": "14"},
+    //   {"Breed": "4rfqasw", "COUNT(Breed)": "63"},
+    //   {"Breed": "afwd", "COUNT(Breed)": "21"},
+    //   {"Breed": "afwwcw", "COUNT(Breed)": "36"}
+    // ];
+    return this.state.apiPark;
   }
 }
 

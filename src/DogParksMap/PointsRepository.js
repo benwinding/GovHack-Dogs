@@ -1,4 +1,3 @@
-import * as React from "react";
 const rp = require('request-promise-native');
 
 export default class PointsRepository {

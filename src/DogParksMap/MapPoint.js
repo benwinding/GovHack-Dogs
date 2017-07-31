@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import "./MapPointPopup.css"
-import {InputGroup,Glyphicon} from 'react-bootstrap';
+import {Glyphicon} from 'react-bootstrap';
 
 const K_WIDTH = 5;
 const K_HEIGHT = 5;
@@ -23,9 +23,6 @@ const greatPlaceStyle = {
 };
 
 class MapPoint extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   GetPopupDescription() {
     return (
