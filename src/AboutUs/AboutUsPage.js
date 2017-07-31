@@ -17,7 +17,7 @@ export default class AboutUsPage extends Component {
           </Row>
           <Row>
             <Col sm="6">
-              <img src={ photo } alt="Our photo" className="aboutImage"/>
+              <img src={ photo } className="aboutImage"/>
             </Col>
             <Col sm="6">
               <p>

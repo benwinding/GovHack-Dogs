@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 
 const K_WIDTH = 10;
 const K_HEIGHT = 10;

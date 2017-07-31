@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import "./MapPointPopup.css"
-import {FormGroup,FormControl,InputGroup,Button,Jumbotron,Glyphicon} from 'react-bootstrap';
+import {InputGroup,Glyphicon} from 'react-bootstrap';
 
 const K_WIDTH = 5;
 const K_HEIGHT = 5;

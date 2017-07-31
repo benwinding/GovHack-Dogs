@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Breadcrumb, Button, Glyphicon, InputGroup} from "react-bootstrap";
+import {Breadcrumb} from "react-bootstrap";
 import './MenuFooterStyle.css';
 
 class MenuFooter extends Component {
