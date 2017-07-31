@@ -8,8 +8,8 @@
 
 .betaTag {
   position: absolute;
-  z-index: 9999;
+  z-index: 99;
   height: 100px;
-  right: 20px;
-  top: 20px;
+  right: 40px;
+  top: 40px;
 }

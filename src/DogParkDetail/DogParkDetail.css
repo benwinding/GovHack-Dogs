@@ -8,6 +8,7 @@
 
 .escButton {
     padding: 15px;
+    z-index: 999;
 }
 
 .backImage {

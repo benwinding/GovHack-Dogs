@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, Glyphicon, InputGroup, Table, Row, Col, Breadcrumb} from "react-bootstrap";
+import {Button, Glyphicon, InputGroup, Table, Row, Col} from "react-bootstrap";
 import './DogParkDetail.css';
 import GoogleMap from 'google-map-react';
 import MapPointYourLocation from "../DogParksMap/MapPointYourLocation";
@@ -16,7 +16,7 @@ const gmapsApiKey = "AIzaSyAFVS3VoZHTceJd3snrMVWb1NtihK8XsVk";
 
 class DetailRow extends Component {
   render () {
-    let faField = "fa fa-"+this.props.fa;
+    let faField = "fa fa-" + this.props.fa;
     let row = (<tr>
       <td><i className={faField}></i></td>
       <td>{this.props.name}</td>
