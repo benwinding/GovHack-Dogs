@@ -12,7 +12,7 @@ class GetMapStuff extends Component {
   state = {};
 
   GetPoints() {
-    let url = `https://ppp234-198.static.internode.on.net:5001/parks?lat=${this.props.latitude}&lng=${this.props.longitude}`;
+    let url = `https://dogedog-db.herokuapp.com/parks?lat=${this.props.latitude}&lng=${this.props.longitude}`;
     PointsRepository.GetPointsFromApiRens(url)
       .then((responseJson) => {
         console.log(responseJson);
@@ -67,7 +67,11 @@ class MapsView extends Component {
     return !this.props.isGeolocationAvailable
       ? <div>Your browser does not support Geolocation</div>
       : !this.props.isGeolocationEnabled
-        ? <div>Geolocation is not enabled</div>
+        ? <GetMapStuff
+          zoom={this.props.zoom}
+          latitude={this.props.center[0]}
+          longitude={this.props.center[1]}
+        />
         : this.props.coords
           ? <GetMapStuff
               zoom={this.props.zoom}

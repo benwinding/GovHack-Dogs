@@ -34,17 +34,17 @@ class DogParkDetail extends Component {
     super(props);
 
     let images = [p1,p2,p3,p4];
-    this.setState({
+    this.state = {
       apiPark:{
         lat:-34.89,
         lng:138.6007
       },
       randomImage: images[Math.floor(Math.random()*images.length)]
-    });
+    };
   }
 
   componentDidMount() {
-    let url = "https://ppp234-198.static.internode.on.net:5001/park?parkid=" + this.props.parkId;
+    let url = "https://dogedog-db.herokuapp.com/park?parkid=" + this.props.parkId;
     rp({uri: url})
       .then((body) => {
         let response = JSON.parse(body);
@@ -137,7 +137,7 @@ class DogParkDetail extends Component {
   }
 
   JsonTestingPrint() {
-    console.log(this.state.apiPark);
+    // console.log(this.state.apiPark);
   }
 }
 

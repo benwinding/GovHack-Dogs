@@ -11,7 +11,7 @@ class StatsDetailView extends Component {
   state={apiPark:[]}
 
   componentDidMount() {
-    let url = "https://ppp234-198.static.internode.on.net:5001/dogstats?suburb=" + this.props.suburb;
+    let url = "https://dogedog-db.herokuapp.com/dogstats?suburb=" + this.props.suburb;
     rp({uri: url})
       .then((body) => {
         let response = JSON.parse(body);
